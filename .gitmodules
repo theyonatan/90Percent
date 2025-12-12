@@ -1,0 +1,3 @@
+[submodule "Assets/GameSystems"]
+	path = Assets/GameSystems
+	url = https://github.com/theyonatan/GameSystems
