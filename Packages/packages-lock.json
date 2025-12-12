@@ -237,7 +237,7 @@
       "hash": "5b95138e8a80b14c336f6fbb3cd00b9d0241d16e"
     },
     "com.uv.ezy-reflection": {
-      "version": "https://github.com/gamedev-uv/Ezyreflection.git",
+      "version": "https://github.com/theyonatan/EzyReflection.git",
       "depth": 0,
       "source": "git",
       "dependencies": {},
