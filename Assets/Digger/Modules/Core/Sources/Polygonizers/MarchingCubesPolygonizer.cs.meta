@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: 976d3fc254674ac3bd53c72c168c9c53
+timeCreated: 1643967205
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135178
+  packageName: "Digger \u2013 Terrain caves & overhangs"
+  packageVersion: 8.0
+  assetPath: Assets/Digger/Modules/Core/Sources/Polygonizers/MarchingCubesPolygonizer.cs
+  uploadId: 832232
