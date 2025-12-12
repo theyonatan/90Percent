@@ -1,5 +1,11 @@
 {
   "dependencies": {
+    "com.unity.2d.sprite": {
+      "version": "1.0.0",
+      "depth": 1,
+      "source": "builtin",
+      "dependencies": {}
+    },
     "com.unity.addressables": {
       "version": "2.7.6",
       "depth": 0,
@@ -58,6 +64,13 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.unity.editorcoroutines": {
+      "version": "1.0.1",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.unity.ext.nunit": {
       "version": "2.0.5",
       "depth": 1,
@@ -100,6 +113,13 @@
     "com.unity.nuget.mono-cecil": {
       "version": "1.11.5",
       "depth": 1,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.nuget.newtonsoft-json": {
+      "version": "3.2.1",
+      "depth": 0,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -187,6 +207,13 @@
         "com.unity.searcher": "4.9.3"
       }
     },
+    "com.unity.sharp-zip-lib": {
+      "version": "1.4.0",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {},
+      "url": "https://packages.unity.com"
+    },
     "com.unity.splines": {
       "version": "2.8.2",
       "depth": 1,
@@ -200,7 +227,7 @@
     },
     "com.unity.test-framework": {
       "version": "1.6.0",
-      "depth": 1,
+      "depth": 0,
       "source": "builtin",
       "dependencies": {
         "com.unity.ext.nunit": "2.0.3",
@@ -227,6 +254,34 @@
         "com.unity.modules.imgui": "1.0.0"
       }
     },
+    "com.unity.vectorgraphics": {
+      "version": "2.0.0-preview.25",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ugui": "1.0.0",
+        "com.unity.2d.sprite": "1.0.0",
+        "com.unity.modules.ui": "1.0.0",
+        "com.unity.modules.physics": "1.0.0",
+        "com.unity.modules.animation": "1.0.0",
+        "com.unity.modules.physics2d": "1.0.0",
+        "com.unity.modules.uielements": "1.0.0",
+        "com.unity.modules.imageconversion": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0",
+        "com.unity.modules.unitywebrequestwww": "1.0.0",
+        "com.unity.modules.unitywebrequesttexture": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.visualeffectgraph": {
+      "version": "17.2.0",
+      "depth": 0,
+      "source": "builtin",
+      "dependencies": {
+        "com.unity.shadergraph": "17.2.0",
+        "com.unity.render-pipelines.core": "17.2.0"
+      }
+    },
     "com.uv.ezy-inspector": {
       "version": "https://github.com/gamedev-uv/EzyInspector.git",
       "depth": 0,
@@ -237,11 +292,11 @@
       "hash": "5b95138e8a80b14c336f6fbb3cd00b9d0241d16e"
     },
     "com.uv.ezy-reflection": {
-      "version": "https://github.com/theyonatan/EzyReflection.git",
+      "version": "https://github.com/theyonatan/EzyReflection.git#patch-1",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "6d7c6dfe458b21c69bad0a194a2f977de007d3ca"
+      "hash": "0d1b35089fdd58fcf4a00347b55a66ac4ba2aa08"
     },
     "com.unity.modules.accessibility": {
       "version": "1.0.0",
