@@ -33,7 +33,7 @@ public class DiamondManager : MonoBehaviour
     {
         if (_instance != null && _instance != this)
         {
-            Debug.LogError("a story executer already exists!");
+            Debug.LogError("a DiamondManager already exists!");
             Destroy(gameObject);
             return;
         }
@@ -63,7 +63,7 @@ public class DiamondManager : MonoBehaviour
         _collectedDiamondsCount = 0;
     }
 
-    public void CollectDiamond()
+    public void CollectDiamond(DiamondType diamondType)
     {
         _collectedDiamondsCount++;
         
