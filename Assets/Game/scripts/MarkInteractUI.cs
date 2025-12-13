@@ -1,10 +1,10 @@
-using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using AYellowpaper.SerializedCollections;
 
 public class MarkInteractUI : MonoBehaviour
 {
-    [SerializeField] public Dictionary<string, Sprite> _icons;
+    [SerializedDictionary] public SerializedDictionary<string, Sprite> Icons;
     private Image _image;
     
     void Start()
@@ -15,7 +15,7 @@ public class MarkInteractUI : MonoBehaviour
 
     public void EnableImage(string icon)
     {
-        _image.sprite = _icons[icon];
+        _image.sprite = Icons[icon];
         _image.gameObject.SetActive(true);
     }
 

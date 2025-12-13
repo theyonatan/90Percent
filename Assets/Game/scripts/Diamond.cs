@@ -5,8 +5,8 @@ public class Diamond : MonoBehaviour, Interactable
 {
     private DiamondManager _diamondManager;
     private MarkInteractUI _markInteractUI;
-    
-    private void Start()
+
+    private void Awake()
     {
         _diamondManager = DiamondManager.Instance;
         _markInteractUI = FindFirstObjectByType<MarkInteractUI>();
