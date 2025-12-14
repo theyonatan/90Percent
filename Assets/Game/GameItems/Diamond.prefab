@@ -104,7 +104,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 26dca4dd1a67f034683c9c14f702a3d9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Diamond
-  DiamondType: 0
+  DiamondType: 1
+  maxHealth: 200
 --- !u!65 &7054169158206339099
 BoxCollider:
   m_ObjectHideFlags: 0

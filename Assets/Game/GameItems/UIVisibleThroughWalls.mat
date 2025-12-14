@@ -7,7 +7,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: s
+  m_Name: UIVisibleThroughWalls
   m_Shader: {fileID: 4800000, guid: e00d5dd6cb6dce0408d42f1b7518f6b3, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0

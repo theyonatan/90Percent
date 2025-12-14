@@ -15,11 +15,6 @@ public class EditTmproText : MonoBehaviour
         StatsSingleton.Instance.GetStat(StatType.Diamonds).OnStatChanged += UpdateText;
     }
 
-    private void OnDestroy()
-    {
-        StatsSingleton.Instance.GetStat(StatType.Diamonds).OnStatChanged -= UpdateText;
-    }
-
     private void UpdateText(float newValue)
     {
         _uiText.text = newValue.ToString(CultureInfo.CurrentCulture);
