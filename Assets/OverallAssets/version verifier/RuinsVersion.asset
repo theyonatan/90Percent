@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 32759dcb8f21c624dadec978e33849c5, type: 3}
   m_Name: RuinsVersion
   m_EditorClassIdentifier: Assembly-CSharp::VersionTracker
-  version: 212
+  version: 225

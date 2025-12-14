@@ -58,7 +58,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9045862625923818365, guid: 5f85cddf92cf8694287c21f1bd845036, type: 3}
       propertyPath: DiamondType
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
