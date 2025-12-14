@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerPickaxe : MonoBehaviour
@@ -41,11 +42,7 @@ public class PlayerPickaxe : MonoBehaviour
         _instance = this;
         DontDestroyOnLoad(gameObject);
 
-        _equippedPickaxe = EquippedPickaxe.Regular;
-        _database = Resources.Load<PickaxeDatabase>("PickaxeDatabase");
-        
-        if (!_database)
-            Debug.LogError("PickaxeDatabase not found in resources!");
+        OnSingletonAwake();
     }
 
     #endregion
@@ -54,6 +51,21 @@ public class PlayerPickaxe : MonoBehaviour
     private EquippedPickaxe _equippedPickaxe = EquippedPickaxe.Regular;
     private PickaxeDatabase _database;
 
+    private void OnSingletonAwake()
+    {
+        // load game data
+        _equippedPickaxe = EquippedPickaxe.Regular;
+        _database = Resources.Load<PickaxeDatabase>("PickaxeDatabase");
+        
+        if (!_database)
+            Debug.LogError("PickaxeDatabase not found in resources!");
+        
+        // reset data in memory
+        StatsSingleton.Instance.ResetStats(new Dictionary<StatType, Stat>()
+        {
+            {StatType.Diamonds, new Stat(0)}
+        });
+    }
     
     public int GetMiningStrength(DiamondType diamondType)
     {
@@ -70,5 +82,18 @@ public class PlayerPickaxe : MonoBehaviour
     public void EquipPickaxe(EquippedPickaxe newPickaxe)
     {
         _equippedPickaxe = newPickaxe;
+    }
+    
+    public static void CollectDiamond(DiamondType diamondType)
+    {
+        int amountOfNewDiamonds = diamondType switch
+        {
+            DiamondType.Blue => 1,
+            DiamondType.Red => Random.Range(2, 6),
+            DiamondType.Green => Random.Range(10, 21),
+            _ => 0
+        };
+        
+        StatsSingleton.Instance.IncreamentStat(StatType.Diamonds, amountOfNewDiamonds);
     }
 }

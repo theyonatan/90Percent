@@ -6,13 +6,11 @@ public class Diamond : MonoBehaviour, Interactable
     [SerializeField] private int maxHealth;
     private int _currentHealth;
     
-    private DiamondManager _diamondManager;
     private MarkInteractUI _markInteractUI;
     private DiamondHealthBar _healthBarBar;
     
     private void Awake()
     {
-        _diamondManager = DiamondManager.Instance;
         _markInteractUI = FindFirstObjectByType<MarkInteractUI>();
         _healthBarBar = GetComponentInChildren<DiamondHealthBar>();
         
@@ -61,7 +59,7 @@ public class Diamond : MonoBehaviour, Interactable
 
     private void BreakDiamond()
     {
-        _diamondManager.CollectDiamond(DiamondType);
+        PlayerPickaxe.CollectDiamond(DiamondType);
         Destroy(gameObject);
     }
 }

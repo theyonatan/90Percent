@@ -1,7 +1,14 @@
+using System;
 using UnityEngine;
 
 public class RanchStory : MonoBehaviour
 {
+    private void Awake()
+    {
+        // init player pickaxe
+        var playerPickaxe = PlayerPickaxe.Instance;
+    }
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
