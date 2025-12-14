@@ -5,7 +5,8 @@ public class Diamond : MonoBehaviour, Interactable
     public DiamondType DiamondType;
     [SerializeField] private int maxHealth;
     private int _currentHealth;
-    
+
+    [SerializeField] private GameObject diamondVfx;
     private MarkInteractUI _markInteractUI;
     private DiamondHealthBar _healthBarBar;
     
@@ -59,7 +60,17 @@ public class Diamond : MonoBehaviour, Interactable
 
     private void BreakDiamond()
     {
+        if (diamondVfx != null)
+        {
+            Instantiate(diamondVfx, transform.position, transform.rotation);
+            Invoke(nameof(DestroyVfx), 1f);
+        }
         PlayerPickaxe.CollectDiamond(DiamondType);
         Destroy(gameObject);
+    }
+
+    private void DestroyVfx()
+    {
+        Destroy(diamondVfx);
     }
 }

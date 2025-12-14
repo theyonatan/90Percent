@@ -222,8 +222,8 @@ ParticleSystem:
     startColor:
       serializedVersion: 2
       minMaxState: 2
-      minColor: {r: 0.8235294, g: 0.8781489, b: 0.9529412, a: 1}
-      maxColor: {r: 0.2784314, g: 0.8697002, b: 0.9607843, a: 1}
+      minColor: {r: 0.4575472, g: 1, b: 0.84420925, a: 1}
+      maxColor: {r: 0.3820755, g: 1, b: 0.474409, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -5125,8 +5125,8 @@ ParticleSystem:
     startColor:
       serializedVersion: 2
       minMaxState: 2
-      minColor: {r: 0.8235294, g: 0.8781489, b: 0.9529412, a: 1}
-      maxColor: {r: 0.2784314, g: 0.8697002, b: 0.9607843, a: 1}
+      minColor: {r: 0.25, g: 1, b: 0.52961975, a: 1}
+      maxColor: {r: 0.5990566, g: 1, b: 0.6353641, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -10037,8 +10037,8 @@ ParticleSystem:
     startColor:
       serializedVersion: 2
       minMaxState: 2
-      minColor: {r: 0.8235294, g: 0.8781489, b: 0.9529412, a: 1}
-      maxColor: {r: 0.2784314, g: 0.8697002, b: 0.9607843, a: 1}
+      minColor: {r: 0.8235294, g: 0.9529412, b: 0.8460357, a: 1}
+      maxColor: {r: 0.2784314, g: 0.9607843, b: 0.3476777, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -14719,7 +14719,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6353175722085422985}
   m_Layer: 0
-  m_Name: VFX_Diamond_Hit
+  m_Name: green
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14966,8 +14966,8 @@ ParticleSystem:
     startColor:
       serializedVersion: 2
       minMaxState: 2
-      minColor: {r: 0.8235294, g: 0.8781489, b: 0.9529412, a: 1}
-      maxColor: {r: 0.2784314, g: 0.8697002, b: 0.9607843, a: 1}
+      minColor: {r: 0.8235294, g: 0.9529412, b: 0.87489986, a: 1}
+      maxColor: {r: 0.2784314, g: 0.9607843, b: 0.51279044, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
