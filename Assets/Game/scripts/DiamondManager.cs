@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 public class DiamondManager : MonoBehaviour
@@ -44,29 +45,20 @@ public class DiamondManager : MonoBehaviour
 
     #endregion
     
-    private Diamond[] _diamonds;
-    private int _collectedDiamondsCount = 0;
     private EditTmproText _uiText;
     
     private void Start()
     {
         _uiText = FindFirstObjectByType<EditTmproText>();
-        _uiText.UpdateText("0");
         
-        DetectAllDiamonds();
-    }
-
-    private void DetectAllDiamonds()
-    {
-        _diamonds = FindObjectsByType<Diamond>(FindObjectsSortMode.None);
-
-        _collectedDiamondsCount = 0;
+        StatsSingleton.Instance.ResetStats(new Dictionary<StatType, Stat>()
+        {
+            {StatType.Diamonds, new Stat(0)}
+        });
     }
 
     public void CollectDiamond(DiamondType diamondType)
     {
-        _collectedDiamondsCount++;
-        
-        _uiText.UpdateText(_collectedDiamondsCount.ToString());
+        StatsSingleton.Instance.IncreamentStat(StatType.Diamonds, 1f);
     }
 }

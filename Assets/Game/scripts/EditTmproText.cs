@@ -1,3 +1,4 @@
+using System.Globalization;
 using UnityEngine;
 using TMPro;
 
@@ -9,10 +10,13 @@ public class EditTmproText : MonoBehaviour
     void Start()
     {
         _uiText = GetComponent<TextMeshProUGUI>();
+        _uiText.text = "0";
+
+        StatsSingleton.Instance.GetStat(StatType.Diamonds).OnStatChanged += UpdateText;
     }
 
-    public void UpdateText(string text)
+    private void UpdateText(float newValue)
     {
-        _uiText.text = text;
+        _uiText.text = newValue.ToString(CultureInfo.CurrentCulture);
     }
 }
