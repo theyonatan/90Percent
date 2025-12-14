@@ -56,6 +56,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 14.055
       objectReference: {fileID: 0}
+    - target: {fileID: 8184352983995909441, guid: 5f85cddf92cf8694287c21f1bd845036, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8184352983995909441, guid: 5f85cddf92cf8694287c21f1bd845036, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9045862625923818365, guid: 5f85cddf92cf8694287c21f1bd845036, type: 3}
+      propertyPath: diamondVfx
+      value: 
+      objectReference: {fileID: 5198165461883566848, guid: 9724f3f71c2809b4d95192d18cfd5864, type: 3}
     - target: {fileID: 9045862625923818365, guid: 5f85cddf92cf8694287c21f1bd845036, type: 3}
       propertyPath: DiamondType
       value: 2

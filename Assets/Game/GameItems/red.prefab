@@ -222,8 +222,8 @@ ParticleSystem:
     startColor:
       serializedVersion: 2
       minMaxState: 2
-      minColor: {r: 0.4575472, g: 1, b: 0.84420925, a: 1}
-      maxColor: {r: 0.3820755, g: 1, b: 0.474409, a: 1}
+      minColor: {r: 1, g: 0.5896226, b: 0.6744456, a: 1}
+      maxColor: {r: 1, g: 0.081506744, b: 0, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -5125,8 +5125,8 @@ ParticleSystem:
     startColor:
       serializedVersion: 2
       minMaxState: 2
-      minColor: {r: 0.25, g: 1, b: 0.52961975, a: 1}
-      maxColor: {r: 0.5990566, g: 1, b: 0.6353641, a: 1}
+      minColor: {r: 1, g: 0.13477108, b: 0, a: 1}
+      maxColor: {r: 0.9607843, g: 0.38659537, b: 0.2784314, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -10037,8 +10037,8 @@ ParticleSystem:
     startColor:
       serializedVersion: 2
       minMaxState: 2
-      minColor: {r: 0.8235294, g: 0.9529412, b: 0.8460357, a: 1}
-      maxColor: {r: 0.2784314, g: 0.9607843, b: 0.3476777, a: 1}
+      minColor: {r: 1, g: 0, b: 0.05426359, a: 1}
+      maxColor: {r: 1, g: 0.43867922, b: 0.46316543, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -14718,8 +14718,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6353175722085422985}
+  - component: {fileID: 2516589157645051835}
   m_Layer: 0
-  m_Name: green
+  m_Name: red
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -14744,6 +14745,18 @@ Transform:
   - {fileID: 6083116817371509998}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2516589157645051835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5198165461883566848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59bff264ac070704a952a2e411161a70, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Diamonds::DiamondVFXKillSelf
 --- !u!1 &6954810039086304522
 GameObject:
   m_ObjectHideFlags: 0
@@ -14966,8 +14979,8 @@ ParticleSystem:
     startColor:
       serializedVersion: 2
       minMaxState: 2
-      minColor: {r: 0.8235294, g: 0.9529412, b: 0.87489986, a: 1}
-      maxColor: {r: 0.2784314, g: 0.9607843, b: 0.51279044, a: 1}
+      minColor: {r: 1, g: 0.3443396, b: 0.47574794, a: 1}
+      maxColor: {r: 1, g: 0, b: 0.1487732, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}

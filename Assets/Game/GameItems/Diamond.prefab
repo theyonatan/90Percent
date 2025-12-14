@@ -106,6 +106,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Diamond
   DiamondType: 1
   maxHealth: 200
+  diamondVfx: {fileID: 5198165461883566848, guid: e427e20af391eaf4aa5341beb15d95e2, type: 3}
 --- !u!65 &7054169158206339099
 BoxCollider:
   m_ObjectHideFlags: 0

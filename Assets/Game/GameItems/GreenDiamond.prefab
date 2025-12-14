@@ -69,6 +69,10 @@ PrefabInstance:
       value: 2000
       objectReference: {fileID: 0}
     - target: {fileID: 9045862625923818365, guid: 5f85cddf92cf8694287c21f1bd845036, type: 3}
+      propertyPath: diamondVfx
+      value: 
+      objectReference: {fileID: 5198165461883566848, guid: 9543628694f9c374499edede4fd3fba7, type: 3}
+    - target: {fileID: 9045862625923818365, guid: 5f85cddf92cf8694287c21f1bd845036, type: 3}
       propertyPath: DiamondType
       value: 4
       objectReference: {fileID: 0}
