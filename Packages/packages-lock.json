@@ -298,13 +298,13 @@
       }
     },
     "com.uv.ezy-inspector": {
-      "version": "https://github.com/gamedev-uv/EzyInspector.git",
+      "version": "https://github.com/theyonatan/EzyInspector.git#patch-1",
       "depth": 0,
       "source": "git",
       "dependencies": {
         "com.uv.ezy-reflection": "1.0.0"
       },
-      "hash": "5b95138e8a80b14c336f6fbb3cd00b9d0241d16e"
+      "hash": "176958a45c5b49ac214b5bb3d7b8c1a1a94aff4d"
     },
     "com.uv.ezy-reflection": {
       "version": "https://github.com/theyonatan/EzyReflection.git#patch-1",
