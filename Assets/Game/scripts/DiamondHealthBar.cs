@@ -4,6 +4,7 @@ using UnityEngine.UI;
 
 public class DiamondHealthBar : MonoBehaviour
 {
+    private float _currentHealth;
     private Slider _healthBar;
     
     private Camera _camera;
@@ -19,7 +20,8 @@ public class DiamondHealthBar : MonoBehaviour
             _camera = Camera.main;
             return;
         }
-        
+
+        _currentHealth = _healthBar.value;
         _camera = player.GetCamera();
         DisableHealthBar();
     }
@@ -34,12 +36,16 @@ public class DiamondHealthBar : MonoBehaviour
 
     public void SetHealth(float health)
     {
+        if (!_healthBar.isActiveAndEnabled)
+            return;
+        
         StopAllCoroutines();
         StartCoroutine(AnimateHealth(health));
     }
 
     private IEnumerator AnimateHealth(float targetHealth)
     {
+        _currentHealth = targetHealth;
         float start = _healthBar.value;
         float time = 0f;
         float duration = 0.2f;
@@ -57,6 +63,7 @@ public class DiamondHealthBar : MonoBehaviour
     public void EnableHealthBar()
     {
         _healthBar.gameObject.SetActive(true);
+        _healthBar.value = _currentHealth;
     }
 
     public void DisableHealthBar()
