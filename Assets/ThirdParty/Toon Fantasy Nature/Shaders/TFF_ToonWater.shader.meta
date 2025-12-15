@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 40735a78a24974b4ca151bb9fd04c9fc
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 0
+  packageName: URP Toon Fantasy Nature 2023.2.5
+  packageVersion: 1.0.4
+  assetPath: Assets/ThirdParty/Toon Fantasy Nature/Shaders/TFF_ToonWater.shader
+  uploadId: 782988
