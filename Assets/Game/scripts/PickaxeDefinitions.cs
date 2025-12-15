@@ -8,7 +8,7 @@ using AYellowpaper.SerializedCollections;
 )]
 public class PickaxeDatabase : ScriptableObject
 {
-    public SerializedDictionary<EquippedPickaxe, PickaxeData> Pickaxes;
+    public SerializedDictionary<Pickaxe, PickaxeData> Pickaxes;
 }
 
 [Flags]
@@ -19,7 +19,7 @@ public enum DiamondType
     Green = 1 << 2,
 }
 
-public enum EquippedPickaxe
+public enum Pickaxe
 {
     Regular,
     Advanced,

@@ -47,14 +47,16 @@ public class PlayerPickaxe : MonoBehaviour
 
     #endregion
 
+    private Dictionary<string, ShopItem> _unlockedItems = new ();
+    
     // setting this to default (regular) at awake().
-    private EquippedPickaxe _equippedPickaxe = EquippedPickaxe.Regular;
+    private Pickaxe _pickaxe = Pickaxe.Regular;
     private PickaxeDatabase _database;
 
     private void OnSingletonAwake()
     {
         // load game data
-        _equippedPickaxe = EquippedPickaxe.Regular;
+        _pickaxe = Pickaxe.Regular;
         _database = Resources.Load<PickaxeDatabase>("PickaxeDatabase");
         
         if (!_database)
@@ -69,7 +71,7 @@ public class PlayerPickaxe : MonoBehaviour
     
     public int GetMiningStrength(DiamondType diamondType)
     {
-        if (!_database.Pickaxes.TryGetValue(_equippedPickaxe, out var data))
+        if (!_database.Pickaxes.TryGetValue(_pickaxe, out var data))
             return 0;
 
         if ((data.MineableDiamonds & diamondType) == 0)
@@ -79,9 +81,15 @@ public class PlayerPickaxe : MonoBehaviour
         return data.Strength;
     }
 
-    public void EquipPickaxe(EquippedPickaxe newPickaxe)
+    public void EquipPickaxe(Pickaxe newPickaxe)
     {
-        _equippedPickaxe = newPickaxe;
+        _pickaxe = newPickaxe;
+    }
+
+    public void UnlockItem(ShopItem item)
+    {
+        if (!_unlockedItems.TryAdd(item.ItemName, item))
+            Debug.LogError("Item " + item.ItemName + " is already unlocked!");
     }
     
     public static void CollectDiamond(DiamondType diamondType)
