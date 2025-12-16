@@ -1,9 +1,0 @@
-fileFormatVersion: 2
-guid: 9f746bb716ace4445a54c98a28ab4b0b
-AssetOrigin:
-  serializedVersion: 1
-  productId: 135178
-  packageName: "Digger \u2013 Terrain caves & overhangs"
-  packageVersion: 8.0
-  assetPath: Assets/Digger/Modules/Core/Sources/NativeCollections/LongNativeCounter.cs
-  uploadId: 832232
