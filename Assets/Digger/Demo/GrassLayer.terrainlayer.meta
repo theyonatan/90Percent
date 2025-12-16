@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c737bd5e3ecf74be2b9e3b557f792e07
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 8574412962073106934
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 135178
+  packageName: "Digger \u2013 Terrain caves & overhangs"
+  packageVersion: 8.0
+  assetPath: Assets/Digger/Demo/GrassLayer.terrainlayer
+  uploadId: 832232
