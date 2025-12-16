@@ -386,7 +386,1443 @@ Scene: Assets/Game/theworld.unity
           * Component: UnityEngine.MeshRenderer
           * Component: UnityEngine.MeshFilter
           * Component: UnityEngine.MeshCollider
+    - Chunk_9_0_7
+      * Component: UnityEngine.Transform
+      * Component: Digger.Modules.Core.Sources.Chunk
+      - VoxelChunk
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.VoxelChunk
+      - ChunkLODGroup_9_0_7
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.ChunkLODGroup
+        - ChunkObject_9_0_7
+          * Component: UnityEngine.Transform
+          * Component: Digger.Modules.Core.Sources.ChunkObject
+          * Component: UnityEngine.MeshRenderer
+          * Component: UnityEngine.MeshFilter
+          * Component: UnityEngine.MeshCollider
+    - Chunk_9_0_8
+      * Component: UnityEngine.Transform
+      * Component: Digger.Modules.Core.Sources.Chunk
+      - VoxelChunk
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.VoxelChunk
+      - ChunkLODGroup_9_0_8
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.ChunkLODGroup
+        - ChunkObject_9_0_8
+          * Component: UnityEngine.Transform
+          * Component: Digger.Modules.Core.Sources.ChunkObject
+          * Component: UnityEngine.MeshRenderer
+          * Component: UnityEngine.MeshFilter
+          * Component: UnityEngine.MeshCollider
+    - Chunk_9_1_8
+      * Component: UnityEngine.Transform
+      * Component: Digger.Modules.Core.Sources.Chunk
+      - VoxelChunk
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.VoxelChunk
+      - ChunkLODGroup_9_1_8
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.ChunkLODGroup
+        - ChunkObject_9_1_8
+          * Component: UnityEngine.Transform
+          * Component: Digger.Modules.Core.Sources.ChunkObject
+          * Component: UnityEngine.MeshRenderer
+          * Component: UnityEngine.MeshFilter
+          * Component: UnityEngine.MeshCollider
+    - Chunk_7_1_6
+      * Component: UnityEngine.Transform
+      * Component: Digger.Modules.Core.Sources.Chunk
+      - VoxelChunk
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.VoxelChunk
+      - ChunkLODGroup_7_1_6
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.ChunkLODGroup
+        - ChunkObject_7_1_6
+          * Component: UnityEngine.Transform
+          * Component: Digger.Modules.Core.Sources.ChunkObject
+          * Component: UnityEngine.MeshRenderer
+          * Component: UnityEngine.MeshFilter
+          * Component: UnityEngine.MeshCollider
+    - Chunk_7_2_6
+      * Component: UnityEngine.Transform
+      * Component: Digger.Modules.Core.Sources.Chunk
+      - VoxelChunk
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.VoxelChunk
+      - ChunkLODGroup_7_2_6
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.ChunkLODGroup
+        - ChunkObject_7_2_6
+          * Component: UnityEngine.Transform
+          * Component: Digger.Modules.Core.Sources.ChunkObject
+          * Component: UnityEngine.MeshRenderer
+          * Component: UnityEngine.MeshFilter
+          * Component: UnityEngine.MeshCollider
+    - Chunk_7_2_7
+      * Component: UnityEngine.Transform
+      * Component: Digger.Modules.Core.Sources.Chunk
+      - VoxelChunk
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.VoxelChunk
+      - ChunkLODGroup_7_2_7
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.ChunkLODGroup
+        - ChunkObject_7_2_7
+          * Component: UnityEngine.Transform
+          * Component: Digger.Modules.Core.Sources.ChunkObject
+          * Component: UnityEngine.MeshRenderer
+          * Component: UnityEngine.MeshFilter
+          * Component: UnityEngine.MeshCollider
+    - Chunk_6_-1_7
+      * Component: UnityEngine.Transform
+      * Component: Digger.Modules.Core.Sources.Chunk
+      - VoxelChunk
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.VoxelChunk
+      - ChunkLODGroup_6_-1_7
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.ChunkLODGroup
+        - ChunkObject_6_-1_7
+          * Component: UnityEngine.Transform
+          * Component: Digger.Modules.Core.Sources.ChunkObject
+          * Component: UnityEngine.MeshRenderer
+          * Component: UnityEngine.MeshFilter
+          * Component: UnityEngine.MeshCollider
+    - Chunk_6_-1_8
+      * Component: UnityEngine.Transform
+      * Component: Digger.Modules.Core.Sources.Chunk
+      - VoxelChunk
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.VoxelChunk
+      - ChunkLODGroup_6_-1_8
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.ChunkLODGroup
+        - ChunkObject_6_-1_8
+          * Component: UnityEngine.Transform
+          * Component: Digger.Modules.Core.Sources.ChunkObject
+          * Component: UnityEngine.MeshRenderer
+          * Component: UnityEngine.MeshFilter
+          * Component: UnityEngine.MeshCollider
+    - Chunk_5_-1_7
+      * Component: UnityEngine.Transform
+      * Component: Digger.Modules.Core.Sources.Chunk
+      - VoxelChunk
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.VoxelChunk
+      - ChunkLODGroup_5_-1_7
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.ChunkLODGroup
+        - ChunkObject_5_-1_7
+          * Component: UnityEngine.Transform
+          * Component: Digger.Modules.Core.Sources.ChunkObject
+          * Component: UnityEngine.MeshRenderer
+          * Component: UnityEngine.MeshFilter
+          * Component: UnityEngine.MeshCollider
+    - Chunk_5_0_7
+      * Component: UnityEngine.Transform
+      * Component: Digger.Modules.Core.Sources.Chunk
+      - VoxelChunk
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.VoxelChunk
+      - ChunkLODGroup_5_0_7
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.ChunkLODGroup
+        - ChunkObject_5_0_7
+          * Component: UnityEngine.Transform
+          * Component: Digger.Modules.Core.Sources.ChunkObject
+          * Component: UnityEngine.MeshRenderer
+          * Component: UnityEngine.MeshFilter
+          * Component: UnityEngine.MeshCollider
+    - Chunk_5_-1_8
+      * Component: UnityEngine.Transform
+      * Component: Digger.Modules.Core.Sources.Chunk
+      - VoxelChunk
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.VoxelChunk
+      - ChunkLODGroup_5_-1_8
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.ChunkLODGroup
+        - ChunkObject_5_-1_8
+          * Component: UnityEngine.Transform
+          * Component: Digger.Modules.Core.Sources.ChunkObject
+          * Component: UnityEngine.MeshRenderer
+          * Component: UnityEngine.MeshFilter
+          * Component: UnityEngine.MeshCollider
+    - Chunk_5_0_8
+      * Component: UnityEngine.Transform
+      * Component: Digger.Modules.Core.Sources.Chunk
+      - VoxelChunk
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.VoxelChunk
+      - ChunkLODGroup_5_0_8
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.ChunkLODGroup
+        - ChunkObject_5_0_8
+          * Component: UnityEngine.Transform
+          * Component: Digger.Modules.Core.Sources.ChunkObject
+          * Component: UnityEngine.MeshRenderer
+          * Component: UnityEngine.MeshFilter
+          * Component: UnityEngine.MeshCollider
+    - Chunk_4_-1_7
+      * Component: UnityEngine.Transform
+      * Component: Digger.Modules.Core.Sources.Chunk
+      - VoxelChunk
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.VoxelChunk
+      - ChunkLODGroup_4_-1_7
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.ChunkLODGroup
+        - ChunkObject_4_-1_7
+          * Component: UnityEngine.Transform
+          * Component: Digger.Modules.Core.Sources.ChunkObject
+          * Component: UnityEngine.MeshRenderer
+          * Component: UnityEngine.MeshFilter
+          * Component: UnityEngine.MeshCollider
+    - Chunk_4_0_7
+      * Component: UnityEngine.Transform
+      * Component: Digger.Modules.Core.Sources.Chunk
+      - VoxelChunk
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.VoxelChunk
+      - ChunkLODGroup_4_0_7
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.ChunkLODGroup
+        - ChunkObject_4_0_7
+          * Component: UnityEngine.Transform
+          * Component: Digger.Modules.Core.Sources.ChunkObject
+          * Component: UnityEngine.MeshRenderer
+          * Component: UnityEngine.MeshFilter
+          * Component: UnityEngine.MeshCollider
+    - Chunk_4_-1_6
+      * Component: UnityEngine.Transform
+      * Component: Digger.Modules.Core.Sources.Chunk
+      - VoxelChunk
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.VoxelChunk
+      - ChunkLODGroup_4_-1_6
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.ChunkLODGroup
+        - ChunkObject_4_-1_6
+          * Component: UnityEngine.Transform
+          * Component: Digger.Modules.Core.Sources.ChunkObject
+          * Component: UnityEngine.MeshRenderer
+          * Component: UnityEngine.MeshFilter
+          * Component: UnityEngine.MeshCollider
+    - Chunk_4_0_6
+      * Component: UnityEngine.Transform
+      * Component: Digger.Modules.Core.Sources.Chunk
+      - VoxelChunk
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.VoxelChunk
+      - ChunkLODGroup_4_0_6
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.ChunkLODGroup
+        - ChunkObject_4_0_6
+          * Component: UnityEngine.Transform
+          * Component: Digger.Modules.Core.Sources.ChunkObject
+          * Component: UnityEngine.MeshRenderer
+          * Component: UnityEngine.MeshFilter
+          * Component: UnityEngine.MeshCollider
+    - Chunk_5_-1_6
+      * Component: UnityEngine.Transform
+      * Component: Digger.Modules.Core.Sources.Chunk
+      - VoxelChunk
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.VoxelChunk
+      - ChunkLODGroup_5_-1_6
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.ChunkLODGroup
+        - ChunkObject_5_-1_6
+          * Component: UnityEngine.Transform
+          * Component: Digger.Modules.Core.Sources.ChunkObject
+          * Component: UnityEngine.MeshRenderer
+          * Component: UnityEngine.MeshFilter
+          * Component: UnityEngine.MeshCollider
+    - Chunk_5_0_6
+      * Component: UnityEngine.Transform
+      * Component: Digger.Modules.Core.Sources.Chunk
+      - VoxelChunk
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.VoxelChunk
+      - ChunkLODGroup_5_0_6
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.ChunkLODGroup
+        - ChunkObject_5_0_6
+          * Component: UnityEngine.Transform
+          * Component: Digger.Modules.Core.Sources.ChunkObject
+          * Component: UnityEngine.MeshRenderer
+          * Component: UnityEngine.MeshFilter
+          * Component: UnityEngine.MeshCollider
+    - Chunk_4_1_6
+      * Component: UnityEngine.Transform
+      * Component: Digger.Modules.Core.Sources.Chunk
+      - VoxelChunk
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.VoxelChunk
+      - ChunkLODGroup_4_1_6
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.ChunkLODGroup
+        - ChunkObject_4_1_6
+          * Component: UnityEngine.Transform
+          * Component: Digger.Modules.Core.Sources.ChunkObject
+          * Component: UnityEngine.MeshRenderer
+          * Component: UnityEngine.MeshFilter
+          * Component: UnityEngine.MeshCollider
+    - Chunk_4_1_7
+      * Component: UnityEngine.Transform
+      * Component: Digger.Modules.Core.Sources.Chunk
+      - VoxelChunk
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.VoxelChunk
+      - ChunkLODGroup_4_1_7
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.ChunkLODGroup
+        - ChunkObject_4_1_7
+          * Component: UnityEngine.Transform
+          * Component: Digger.Modules.Core.Sources.ChunkObject
+          * Component: UnityEngine.MeshRenderer
+          * Component: UnityEngine.MeshFilter
+          * Component: UnityEngine.MeshCollider
+    - Chunk_5_1_6
+      * Component: UnityEngine.Transform
+      * Component: Digger.Modules.Core.Sources.Chunk
+      - VoxelChunk
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.VoxelChunk
+      - ChunkLODGroup_5_1_6
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.ChunkLODGroup
+        - ChunkObject_5_1_6
+          * Component: UnityEngine.Transform
+          * Component: Digger.Modules.Core.Sources.ChunkObject
+          * Component: UnityEngine.MeshRenderer
+          * Component: UnityEngine.MeshFilter
+          * Component: UnityEngine.MeshCollider
+    - Chunk_5_1_7
+      * Component: UnityEngine.Transform
+      * Component: Digger.Modules.Core.Sources.Chunk
+      - VoxelChunk
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.VoxelChunk
+      - ChunkLODGroup_5_1_7
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.ChunkLODGroup
+        - ChunkObject_5_1_7
+          * Component: UnityEngine.Transform
+          * Component: Digger.Modules.Core.Sources.ChunkObject
+          * Component: UnityEngine.MeshRenderer
+          * Component: UnityEngine.MeshFilter
+          * Component: UnityEngine.MeshCollider
+    - Chunk_4_0_5
+      * Component: UnityEngine.Transform
+      * Component: Digger.Modules.Core.Sources.Chunk
+      - VoxelChunk
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.VoxelChunk
+      - ChunkLODGroup_4_0_5
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.ChunkLODGroup
+        - ChunkObject_4_0_5
+          * Component: UnityEngine.Transform
+          * Component: Digger.Modules.Core.Sources.ChunkObject
+          * Component: UnityEngine.MeshRenderer
+          * Component: UnityEngine.MeshFilter
+          * Component: UnityEngine.MeshCollider
+    - Chunk_4_1_5
+      * Component: UnityEngine.Transform
+      * Component: Digger.Modules.Core.Sources.Chunk
+      - VoxelChunk
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.VoxelChunk
+      - ChunkLODGroup_4_1_5
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.ChunkLODGroup
+        - ChunkObject_4_1_5
+          * Component: UnityEngine.Transform
+          * Component: Digger.Modules.Core.Sources.ChunkObject
+          * Component: UnityEngine.MeshRenderer
+          * Component: UnityEngine.MeshFilter
+          * Component: UnityEngine.MeshCollider
+    - Chunk_5_0_5
+      * Component: UnityEngine.Transform
+      * Component: Digger.Modules.Core.Sources.Chunk
+      - VoxelChunk
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.VoxelChunk
+      - ChunkLODGroup_5_0_5
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.ChunkLODGroup
+        - ChunkObject_5_0_5
+          * Component: UnityEngine.Transform
+          * Component: Digger.Modules.Core.Sources.ChunkObject
+          * Component: UnityEngine.MeshRenderer
+          * Component: UnityEngine.MeshFilter
+          * Component: UnityEngine.MeshCollider
+    - Chunk_5_1_5
+      * Component: UnityEngine.Transform
+      * Component: Digger.Modules.Core.Sources.Chunk
+      - VoxelChunk
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.VoxelChunk
+      - ChunkLODGroup_5_1_5
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.ChunkLODGroup
+        - ChunkObject_5_1_5
+          * Component: UnityEngine.Transform
+          * Component: Digger.Modules.Core.Sources.ChunkObject
+          * Component: UnityEngine.MeshRenderer
+          * Component: UnityEngine.MeshFilter
+          * Component: UnityEngine.MeshCollider
+    - Chunk_4_-1_5
+      * Component: UnityEngine.Transform
+      * Component: Digger.Modules.Core.Sources.Chunk
+      - VoxelChunk
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.VoxelChunk
+      - ChunkLODGroup_4_-1_5
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.ChunkLODGroup
+        - ChunkObject_4_-1_5
+          * Component: UnityEngine.Transform
+          * Component: Digger.Modules.Core.Sources.ChunkObject
+          * Component: UnityEngine.MeshRenderer
+          * Component: UnityEngine.MeshFilter
+          * Component: UnityEngine.MeshCollider
+    - Chunk_5_-1_5
+      * Component: UnityEngine.Transform
+      * Component: Digger.Modules.Core.Sources.Chunk
+      - VoxelChunk
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.VoxelChunk
+      - ChunkLODGroup_5_-1_5
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.ChunkLODGroup
+        - ChunkObject_5_-1_5
+          * Component: UnityEngine.Transform
+          * Component: Digger.Modules.Core.Sources.ChunkObject
+          * Component: UnityEngine.MeshRenderer
+          * Component: UnityEngine.MeshFilter
+          * Component: UnityEngine.MeshCollider
+    - Chunk_3_-1_6
+      * Component: UnityEngine.Transform
+      * Component: Digger.Modules.Core.Sources.Chunk
+      - VoxelChunk
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.VoxelChunk
+      - ChunkLODGroup_3_-1_6
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.ChunkLODGroup
+        - ChunkObject_3_-1_6
+          * Component: UnityEngine.Transform
+          * Component: Digger.Modules.Core.Sources.ChunkObject
+          * Component: UnityEngine.MeshRenderer
+          * Component: UnityEngine.MeshFilter
+          * Component: UnityEngine.MeshCollider
+    - Chunk_3_0_6
+      * Component: UnityEngine.Transform
+      * Component: Digger.Modules.Core.Sources.Chunk
+      - VoxelChunk
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.VoxelChunk
+      - ChunkLODGroup_3_0_6
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.ChunkLODGroup
+        - ChunkObject_3_0_6
+          * Component: UnityEngine.Transform
+          * Component: Digger.Modules.Core.Sources.ChunkObject
+          * Component: UnityEngine.MeshRenderer
+          * Component: UnityEngine.MeshFilter
+          * Component: UnityEngine.MeshCollider
+    - Chunk_3_-1_7
+      * Component: UnityEngine.Transform
+      * Component: Digger.Modules.Core.Sources.Chunk
+      - VoxelChunk
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.VoxelChunk
+      - ChunkLODGroup_3_-1_7
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.ChunkLODGroup
+        - ChunkObject_3_-1_7
+          * Component: UnityEngine.Transform
+          * Component: Digger.Modules.Core.Sources.ChunkObject
+          * Component: UnityEngine.MeshRenderer
+          * Component: UnityEngine.MeshFilter
+          * Component: UnityEngine.MeshCollider
+    - Chunk_3_0_7
+      * Component: UnityEngine.Transform
+      * Component: Digger.Modules.Core.Sources.Chunk
+      - VoxelChunk
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.VoxelChunk
+      - ChunkLODGroup_3_0_7
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.ChunkLODGroup
+        - ChunkObject_3_0_7
+          * Component: UnityEngine.Transform
+          * Component: Digger.Modules.Core.Sources.ChunkObject
+          * Component: UnityEngine.MeshRenderer
+          * Component: UnityEngine.MeshFilter
+          * Component: UnityEngine.MeshCollider
+    - Chunk_3_1_6
+      * Component: UnityEngine.Transform
+      * Component: Digger.Modules.Core.Sources.Chunk
+      - VoxelChunk
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.VoxelChunk
+      - ChunkLODGroup_3_1_6
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.ChunkLODGroup
+        - ChunkObject_3_1_6
+          * Component: UnityEngine.Transform
+          * Component: Digger.Modules.Core.Sources.ChunkObject
+          * Component: UnityEngine.MeshRenderer
+          * Component: UnityEngine.MeshFilter
+          * Component: UnityEngine.MeshCollider
+    - Chunk_3_1_7
+      * Component: UnityEngine.Transform
+      * Component: Digger.Modules.Core.Sources.Chunk
+      - VoxelChunk
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.VoxelChunk
+      - ChunkLODGroup_3_1_7
+        * Component: UnityEngine.Transform
+        * Component: Digger.Modules.Core.Sources.ChunkLODGroup
+        - ChunkObject_3_1_7
+          * Component: UnityEngine.Transform
+          * Component: Digger.Modules.Core.Sources.ChunkObject
+          * Component: UnityEngine.MeshRenderer
+          * Component: UnityEngine.MeshFilter
+          * Component: UnityEngine.MeshCollider
 - Digger Master
   * Component: UnityEngine.Transform
   * Component: Digger.Modules.Core.Sources.DiggerMaster
+- Diamonds
+  * Component: UnityEngine.Transform
+  - Diamond
+    * Component: UnityEngine.Transform
+    * Component: UnityEngine.MeshFilter
+    * Component: UnityEngine.MeshRenderer
+    * Component: Diamond
+    * Component: UnityEngine.BoxCollider
+    - Canvas
+      * Component: UnityEngine.RectTransform
+      * Component: UnityEngine.Canvas
+      * Component: UnityEngine.UI.CanvasScaler
+      * Component: UnityEngine.UI.GraphicRaycaster
+      - Slider_LoadingBar
+        * Component: UnityEngine.RectTransform
+        * Component: UnityEngine.CanvasRenderer
+        * Component: UnityEngine.UI.Image
+        * Component: UnityEngine.UI.Slider
+        * Component: DiamondHealthBar
+        - Fill
+          * Component: UnityEngine.RectTransform
+          * Component: UnityEngine.CanvasRenderer
+          * Component: UnityEngine.UI.Image
+  - Diamond (1)
+    * Component: UnityEngine.Transform
+    * Component: UnityEngine.MeshFilter
+    * Component: UnityEngine.MeshRenderer
+    * Component: Diamond
+    * Component: UnityEngine.BoxCollider
+    - Canvas
+      * Component: UnityEngine.RectTransform
+      * Component: UnityEngine.Canvas
+      * Component: UnityEngine.UI.CanvasScaler
+      * Component: UnityEngine.UI.GraphicRaycaster
+      - Slider_LoadingBar
+        * Component: UnityEngine.RectTransform
+        * Component: UnityEngine.CanvasRenderer
+        * Component: UnityEngine.UI.Image
+        * Component: UnityEngine.UI.Slider
+        * Component: DiamondHealthBar
+        - Fill
+          * Component: UnityEngine.RectTransform
+          * Component: UnityEngine.CanvasRenderer
+          * Component: UnityEngine.UI.Image
+  - Diamond (2)
+    * Component: UnityEngine.Transform
+    * Component: UnityEngine.MeshFilter
+    * Component: UnityEngine.MeshRenderer
+    * Component: Diamond
+    * Component: UnityEngine.BoxCollider
+    - Canvas
+      * Component: UnityEngine.RectTransform
+      * Component: UnityEngine.Canvas
+      * Component: UnityEngine.UI.CanvasScaler
+      * Component: UnityEngine.UI.GraphicRaycaster
+      - Slider_LoadingBar
+        * Component: UnityEngine.RectTransform
+        * Component: UnityEngine.CanvasRenderer
+        * Component: UnityEngine.UI.Image
+        * Component: UnityEngine.UI.Slider
+        * Component: DiamondHealthBar
+        - Fill
+          * Component: UnityEngine.RectTransform
+          * Component: UnityEngine.CanvasRenderer
+          * Component: UnityEngine.UI.Image
+  - Diamond (3)
+    * Component: UnityEngine.Transform
+    * Component: UnityEngine.MeshFilter
+    * Component: UnityEngine.MeshRenderer
+    * Component: Diamond
+    * Component: UnityEngine.BoxCollider
+    - Canvas
+      * Component: UnityEngine.RectTransform
+      * Component: UnityEngine.Canvas
+      * Component: UnityEngine.UI.CanvasScaler
+      * Component: UnityEngine.UI.GraphicRaycaster
+      - Slider_LoadingBar
+        * Component: UnityEngine.RectTransform
+        * Component: UnityEngine.CanvasRenderer
+        * Component: UnityEngine.UI.Image
+        * Component: UnityEngine.UI.Slider
+        * Component: DiamondHealthBar
+        - Fill
+          * Component: UnityEngine.RectTransform
+          * Component: UnityEngine.CanvasRenderer
+          * Component: UnityEngine.UI.Image
+  - Diamond (4)
+    * Component: UnityEngine.Transform
+    * Component: UnityEngine.MeshFilter
+    * Component: UnityEngine.MeshRenderer
+    * Component: Diamond
+    * Component: UnityEngine.BoxCollider
+    - Canvas
+      * Component: UnityEngine.RectTransform
+      * Component: UnityEngine.Canvas
+      * Component: UnityEngine.UI.CanvasScaler
+      * Component: UnityEngine.UI.GraphicRaycaster
+      - Slider_LoadingBar
+        * Component: UnityEngine.RectTransform
+        * Component: UnityEngine.CanvasRenderer
+        * Component: UnityEngine.UI.Image
+        * Component: UnityEngine.UI.Slider
+        * Component: DiamondHealthBar
+        - Fill
+          * Component: UnityEngine.RectTransform
+          * Component: UnityEngine.CanvasRenderer
+          * Component: UnityEngine.UI.Image
+  - Diamond (5)
+    * Component: UnityEngine.Transform
+    * Component: UnityEngine.MeshFilter
+    * Component: UnityEngine.MeshRenderer
+    * Component: Diamond
+    * Component: UnityEngine.BoxCollider
+    - Canvas
+      * Component: UnityEngine.RectTransform
+      * Component: UnityEngine.Canvas
+      * Component: UnityEngine.UI.CanvasScaler
+      * Component: UnityEngine.UI.GraphicRaycaster
+      - Slider_LoadingBar
+        * Component: UnityEngine.RectTransform
+        * Component: UnityEngine.CanvasRenderer
+        * Component: UnityEngine.UI.Image
+        * Component: UnityEngine.UI.Slider
+        * Component: DiamondHealthBar
+        - Fill
+          * Component: UnityEngine.RectTransform
+          * Component: UnityEngine.CanvasRenderer
+          * Component: UnityEngine.UI.Image
+  - Diamond (6)
+    * Component: UnityEngine.Transform
+    * Component: UnityEngine.MeshFilter
+    * Component: UnityEngine.MeshRenderer
+    * Component: Diamond
+    * Component: UnityEngine.BoxCollider
+    - Canvas
+      * Component: UnityEngine.RectTransform
+      * Component: UnityEngine.Canvas
+      * Component: UnityEngine.UI.CanvasScaler
+      * Component: UnityEngine.UI.GraphicRaycaster
+      - Slider_LoadingBar
+        * Component: UnityEngine.RectTransform
+        * Component: UnityEngine.CanvasRenderer
+        * Component: UnityEngine.UI.Image
+        * Component: UnityEngine.UI.Slider
+        * Component: DiamondHealthBar
+        - Fill
+          * Component: UnityEngine.RectTransform
+          * Component: UnityEngine.CanvasRenderer
+          * Component: UnityEngine.UI.Image
+  - Diamond (7)
+    * Component: UnityEngine.Transform
+    * Component: UnityEngine.MeshFilter
+    * Component: UnityEngine.MeshRenderer
+    * Component: Diamond
+    * Component: UnityEngine.BoxCollider
+    - Canvas
+      * Component: UnityEngine.RectTransform
+      * Component: UnityEngine.Canvas
+      * Component: UnityEngine.UI.CanvasScaler
+      * Component: UnityEngine.UI.GraphicRaycaster
+      - Slider_LoadingBar
+        * Component: UnityEngine.RectTransform
+        * Component: UnityEngine.CanvasRenderer
+        * Component: UnityEngine.UI.Image
+        * Component: UnityEngine.UI.Slider
+        * Component: DiamondHealthBar
+        - Fill
+          * Component: UnityEngine.RectTransform
+          * Component: UnityEngine.CanvasRenderer
+          * Component: UnityEngine.UI.Image
+  - Diamond (8)
+    * Component: UnityEngine.Transform
+    * Component: UnityEngine.MeshFilter
+    * Component: UnityEngine.MeshRenderer
+    * Component: Diamond
+    * Component: UnityEngine.BoxCollider
+    - Canvas
+      * Component: UnityEngine.RectTransform
+      * Component: UnityEngine.Canvas
+      * Component: UnityEngine.UI.CanvasScaler
+      * Component: UnityEngine.UI.GraphicRaycaster
+      - Slider_LoadingBar
+        * Component: UnityEngine.RectTransform
+        * Component: UnityEngine.CanvasRenderer
+        * Component: UnityEngine.UI.Image
+        * Component: UnityEngine.UI.Slider
+        * Component: DiamondHealthBar
+        - Fill
+          * Component: UnityEngine.RectTransform
+          * Component: UnityEngine.CanvasRenderer
+          * Component: UnityEngine.UI.Image
+  - Diamond (9)
+    * Component: UnityEngine.Transform
+    * Component: UnityEngine.MeshFilter
+    * Component: UnityEngine.MeshRenderer
+    * Component: Diamond
+    * Component: UnityEngine.BoxCollider
+    - Canvas
+      * Component: UnityEngine.RectTransform
+      * Component: UnityEngine.Canvas
+      * Component: UnityEngine.UI.CanvasScaler
+      * Component: UnityEngine.UI.GraphicRaycaster
+      - Slider_LoadingBar
+        * Component: UnityEngine.RectTransform
+        * Component: UnityEngine.CanvasRenderer
+        * Component: UnityEngine.UI.Image
+        * Component: UnityEngine.UI.Slider
+        * Component: DiamondHealthBar
+        - Fill
+          * Component: UnityEngine.RectTransform
+          * Component: UnityEngine.CanvasRenderer
+          * Component: UnityEngine.UI.Image
+  - Diamond (10)
+    * Component: UnityEngine.Transform
+    * Component: UnityEngine.MeshFilter
+    * Component: UnityEngine.MeshRenderer
+    * Component: Diamond
+    * Component: UnityEngine.BoxCollider
+    - Canvas
+      * Component: UnityEngine.RectTransform
+      * Component: UnityEngine.Canvas
+      * Component: UnityEngine.UI.CanvasScaler
+      * Component: UnityEngine.UI.GraphicRaycaster
+      - Slider_LoadingBar
+        * Component: UnityEngine.RectTransform
+        * Component: UnityEngine.CanvasRenderer
+        * Component: UnityEngine.UI.Image
+        * Component: UnityEngine.UI.Slider
+        * Component: DiamondHealthBar
+        - Fill
+          * Component: UnityEngine.RectTransform
+          * Component: UnityEngine.CanvasRenderer
+          * Component: UnityEngine.UI.Image
+  - Diamond (11)
+    * Component: UnityEngine.Transform
+    * Component: UnityEngine.MeshFilter
+    * Component: UnityEngine.MeshRenderer
+    * Component: Diamond
+    * Component: UnityEngine.BoxCollider
+    - Canvas
+      * Component: UnityEngine.RectTransform
+      * Component: UnityEngine.Canvas
+      * Component: UnityEngine.UI.CanvasScaler
+      * Component: UnityEngine.UI.GraphicRaycaster
+      - Slider_LoadingBar
+        * Component: UnityEngine.RectTransform
+        * Component: UnityEngine.CanvasRenderer
+        * Component: UnityEngine.UI.Image
+        * Component: UnityEngine.UI.Slider
+        * Component: DiamondHealthBar
+        - Fill
+          * Component: UnityEngine.RectTransform
+          * Component: UnityEngine.CanvasRenderer
+          * Component: UnityEngine.UI.Image
+  - Diamond (12)
+    * Component: UnityEngine.Transform
+    * Component: UnityEngine.MeshFilter
+    * Component: UnityEngine.MeshRenderer
+    * Component: Diamond
+    * Component: UnityEngine.BoxCollider
+    - Canvas
+      * Component: UnityEngine.RectTransform
+      * Component: UnityEngine.Canvas
+      * Component: UnityEngine.UI.CanvasScaler
+      * Component: UnityEngine.UI.GraphicRaycaster
+      - Slider_LoadingBar
+        * Component: UnityEngine.RectTransform
+        * Component: UnityEngine.CanvasRenderer
+        * Component: UnityEngine.UI.Image
+        * Component: UnityEngine.UI.Slider
+        * Component: DiamondHealthBar
+        - Fill
+          * Component: UnityEngine.RectTransform
+          * Component: UnityEngine.CanvasRenderer
+          * Component: UnityEngine.UI.Image
+  - RedDiamond
+    * Component: UnityEngine.Transform
+    * Component: UnityEngine.MeshFilter
+    * Component: UnityEngine.MeshRenderer
+    * Component: Diamond
+    * Component: UnityEngine.BoxCollider
+    - Canvas
+      * Component: UnityEngine.RectTransform
+      * Component: UnityEngine.Canvas
+      * Component: UnityEngine.UI.CanvasScaler
+      * Component: UnityEngine.UI.GraphicRaycaster
+      - Slider_LoadingBar
+        * Component: UnityEngine.RectTransform
+        * Component: UnityEngine.CanvasRenderer
+        * Component: UnityEngine.UI.Image
+        * Component: UnityEngine.UI.Slider
+        * Component: DiamondHealthBar
+        - Fill
+          * Component: UnityEngine.RectTransform
+          * Component: UnityEngine.CanvasRenderer
+          * Component: UnityEngine.UI.Image
+  - RedDiamond (1)
+    * Component: UnityEngine.Transform
+    * Component: UnityEngine.MeshFilter
+    * Component: UnityEngine.MeshRenderer
+    * Component: Diamond
+    * Component: UnityEngine.BoxCollider
+    - Canvas
+      * Component: UnityEngine.RectTransform
+      * Component: UnityEngine.Canvas
+      * Component: UnityEngine.UI.CanvasScaler
+      * Component: UnityEngine.UI.GraphicRaycaster
+      - Slider_LoadingBar
+        * Component: UnityEngine.RectTransform
+        * Component: UnityEngine.CanvasRenderer
+        * Component: UnityEngine.UI.Image
+        * Component: UnityEngine.UI.Slider
+        * Component: DiamondHealthBar
+        - Fill
+          * Component: UnityEngine.RectTransform
+          * Component: UnityEngine.CanvasRenderer
+          * Component: UnityEngine.UI.Image
+  - RedDiamond (2)
+    * Component: UnityEngine.Transform
+    * Component: UnityEngine.MeshFilter
+    * Component: UnityEngine.MeshRenderer
+    * Component: Diamond
+    * Component: UnityEngine.BoxCollider
+    - Canvas
+      * Component: UnityEngine.RectTransform
+      * Component: UnityEngine.Canvas
+      * Component: UnityEngine.UI.CanvasScaler
+      * Component: UnityEngine.UI.GraphicRaycaster
+      - Slider_LoadingBar
+        * Component: UnityEngine.RectTransform
+        * Component: UnityEngine.CanvasRenderer
+        * Component: UnityEngine.UI.Image
+        * Component: UnityEngine.UI.Slider
+        * Component: DiamondHealthBar
+        - Fill
+          * Component: UnityEngine.RectTransform
+          * Component: UnityEngine.CanvasRenderer
+          * Component: UnityEngine.UI.Image
+  - RedDiamond (3)
+    * Component: UnityEngine.Transform
+    * Component: UnityEngine.MeshFilter
+    * Component: UnityEngine.MeshRenderer
+    * Component: Diamond
+    * Component: UnityEngine.BoxCollider
+    - Canvas
+      * Component: UnityEngine.RectTransform
+      * Component: UnityEngine.Canvas
+      * Component: UnityEngine.UI.CanvasScaler
+      * Component: UnityEngine.UI.GraphicRaycaster
+      - Slider_LoadingBar
+        * Component: UnityEngine.RectTransform
+        * Component: UnityEngine.CanvasRenderer
+        * Component: UnityEngine.UI.Image
+        * Component: UnityEngine.UI.Slider
+        * Component: DiamondHealthBar
+        - Fill
+          * Component: UnityEngine.RectTransform
+          * Component: UnityEngine.CanvasRenderer
+          * Component: UnityEngine.UI.Image
+  - RedDiamond (4)
+    * Component: UnityEngine.Transform
+    * Component: UnityEngine.MeshFilter
+    * Component: UnityEngine.MeshRenderer
+    * Component: Diamond
+    * Component: UnityEngine.BoxCollider
+    - Canvas
+      * Component: UnityEngine.RectTransform
+      * Component: UnityEngine.Canvas
+      * Component: UnityEngine.UI.CanvasScaler
+      * Component: UnityEngine.UI.GraphicRaycaster
+      - Slider_LoadingBar
+        * Component: UnityEngine.RectTransform
+        * Component: UnityEngine.CanvasRenderer
+        * Component: UnityEngine.UI.Image
+        * Component: UnityEngine.UI.Slider
+        * Component: DiamondHealthBar
+        - Fill
+          * Component: UnityEngine.RectTransform
+          * Component: UnityEngine.CanvasRenderer
+          * Component: UnityEngine.UI.Image
+  - Diamond (13)
+    * Component: UnityEngine.Transform
+    * Component: UnityEngine.MeshFilter
+    * Component: UnityEngine.MeshRenderer
+    * Component: Diamond
+    * Component: UnityEngine.BoxCollider
+    - Canvas
+      * Component: UnityEngine.RectTransform
+      * Component: UnityEngine.Canvas
+      * Component: UnityEngine.UI.CanvasScaler
+      * Component: UnityEngine.UI.GraphicRaycaster
+      - Slider_LoadingBar
+        * Component: UnityEngine.RectTransform
+        * Component: UnityEngine.CanvasRenderer
+        * Component: UnityEngine.UI.Image
+        * Component: UnityEngine.UI.Slider
+        * Component: DiamondHealthBar
+        - Fill
+          * Component: UnityEngine.RectTransform
+          * Component: UnityEngine.CanvasRenderer
+          * Component: UnityEngine.UI.Image
+  - Diamond (14)
+    * Component: UnityEngine.Transform
+    * Component: UnityEngine.MeshFilter
+    * Component: UnityEngine.MeshRenderer
+    * Component: Diamond
+    * Component: UnityEngine.BoxCollider
+    - Canvas
+      * Component: UnityEngine.RectTransform
+      * Component: UnityEngine.Canvas
+      * Component: UnityEngine.UI.CanvasScaler
+      * Component: UnityEngine.UI.GraphicRaycaster
+      - Slider_LoadingBar
+        * Component: UnityEngine.RectTransform
+        * Component: UnityEngine.CanvasRenderer
+        * Component: UnityEngine.UI.Image
+        * Component: UnityEngine.UI.Slider
+        * Component: DiamondHealthBar
+        - Fill
+          * Component: UnityEngine.RectTransform
+          * Component: UnityEngine.CanvasRenderer
+          * Component: UnityEngine.UI.Image
+  - Diamond (15)
+    * Component: UnityEngine.Transform
+    * Component: UnityEngine.MeshFilter
+    * Component: UnityEngine.MeshRenderer
+    * Component: Diamond
+    * Component: UnityEngine.BoxCollider
+    - Canvas
+      * Component: UnityEngine.RectTransform
+      * Component: UnityEngine.Canvas
+      * Component: UnityEngine.UI.CanvasScaler
+      * Component: UnityEngine.UI.GraphicRaycaster
+      - Slider_LoadingBar
+        * Component: UnityEngine.RectTransform
+        * Component: UnityEngine.CanvasRenderer
+        * Component: UnityEngine.UI.Image
+        * Component: UnityEngine.UI.Slider
+        * Component: DiamondHealthBar
+        - Fill
+          * Component: UnityEngine.RectTransform
+          * Component: UnityEngine.CanvasRenderer
+          * Component: UnityEngine.UI.Image
+  - Diamond (16)
+    * Component: UnityEngine.Transform
+    * Component: UnityEngine.MeshFilter
+    * Component: UnityEngine.MeshRenderer
+    * Component: Diamond
+    * Component: UnityEngine.BoxCollider
+    - Canvas
+      * Component: UnityEngine.RectTransform
+      * Component: UnityEngine.Canvas
+      * Component: UnityEngine.UI.CanvasScaler
+      * Component: UnityEngine.UI.GraphicRaycaster
+      - Slider_LoadingBar
+        * Component: UnityEngine.RectTransform
+        * Component: UnityEngine.CanvasRenderer
+        * Component: UnityEngine.UI.Image
+        * Component: UnityEngine.UI.Slider
+        * Component: DiamondHealthBar
+        - Fill
+          * Component: UnityEngine.RectTransform
+          * Component: UnityEngine.CanvasRenderer
+          * Component: UnityEngine.UI.Image
+  - Diamond (17)
+    * Component: UnityEngine.Transform
+    * Component: UnityEngine.MeshFilter
+    * Component: UnityEngine.MeshRenderer
+    * Component: Diamond
+    * Component: UnityEngine.BoxCollider
+    - Canvas
+      * Component: UnityEngine.RectTransform
+      * Component: UnityEngine.Canvas
+      * Component: UnityEngine.UI.CanvasScaler
+      * Component: UnityEngine.UI.GraphicRaycaster
+      - Slider_LoadingBar
+        * Component: UnityEngine.RectTransform
+        * Component: UnityEngine.CanvasRenderer
+        * Component: UnityEngine.UI.Image
+        * Component: UnityEngine.UI.Slider
+        * Component: DiamondHealthBar
+        - Fill
+          * Component: UnityEngine.RectTransform
+          * Component: UnityEngine.CanvasRenderer
+          * Component: UnityEngine.UI.Image
+  - Diamond (18)
+    * Component: UnityEngine.Transform
+    * Component: UnityEngine.MeshFilter
+    * Component: UnityEngine.MeshRenderer
+    * Component: Diamond
+    * Component: UnityEngine.BoxCollider
+    - Canvas
+      * Component: UnityEngine.RectTransform
+      * Component: UnityEngine.Canvas
+      * Component: UnityEngine.UI.CanvasScaler
+      * Component: UnityEngine.UI.GraphicRaycaster
+      - Slider_LoadingBar
+        * Component: UnityEngine.RectTransform
+        * Component: UnityEngine.CanvasRenderer
+        * Component: UnityEngine.UI.Image
+        * Component: UnityEngine.UI.Slider
+        * Component: DiamondHealthBar
+        - Fill
+          * Component: UnityEngine.RectTransform
+          * Component: UnityEngine.CanvasRenderer
+          * Component: UnityEngine.UI.Image
+  - Diamond (19)
+    * Component: UnityEngine.Transform
+    * Component: UnityEngine.MeshFilter
+    * Component: UnityEngine.MeshRenderer
+    * Component: Diamond
+    * Component: UnityEngine.BoxCollider
+    - Canvas
+      * Component: UnityEngine.RectTransform
+      * Component: UnityEngine.Canvas
+      * Component: UnityEngine.UI.CanvasScaler
+      * Component: UnityEngine.UI.GraphicRaycaster
+      - Slider_LoadingBar
+        * Component: UnityEngine.RectTransform
+        * Component: UnityEngine.CanvasRenderer
+        * Component: UnityEngine.UI.Image
+        * Component: UnityEngine.UI.Slider
+        * Component: DiamondHealthBar
+        - Fill
+          * Component: UnityEngine.RectTransform
+          * Component: UnityEngine.CanvasRenderer
+          * Component: UnityEngine.UI.Image
+  - Diamond (20)
+    * Component: UnityEngine.Transform
+    * Component: UnityEngine.MeshFilter
+    * Component: UnityEngine.MeshRenderer
+    * Component: Diamond
+    * Component: UnityEngine.BoxCollider
+    - Canvas
+      * Component: UnityEngine.RectTransform
+      * Component: UnityEngine.Canvas
+      * Component: UnityEngine.UI.CanvasScaler
+      * Component: UnityEngine.UI.GraphicRaycaster
+      - Slider_LoadingBar
+        * Component: UnityEngine.RectTransform
+        * Component: UnityEngine.CanvasRenderer
+        * Component: UnityEngine.UI.Image
+        * Component: UnityEngine.UI.Slider
+        * Component: DiamondHealthBar
+        - Fill
+          * Component: UnityEngine.RectTransform
+          * Component: UnityEngine.CanvasRenderer
+          * Component: UnityEngine.UI.Image
+  - Diamond (21)
+    * Component: UnityEngine.Transform
+    * Component: UnityEngine.MeshFilter
+    * Component: UnityEngine.MeshRenderer
+    * Component: Diamond
+    * Component: UnityEngine.BoxCollider
+    - Canvas
+      * Component: UnityEngine.RectTransform
+      * Component: UnityEngine.Canvas
+      * Component: UnityEngine.UI.CanvasScaler
+      * Component: UnityEngine.UI.GraphicRaycaster
+      - Slider_LoadingBar
+        * Component: UnityEngine.RectTransform
+        * Component: UnityEngine.CanvasRenderer
+        * Component: UnityEngine.UI.Image
+        * Component: UnityEngine.UI.Slider
+        * Component: DiamondHealthBar
+        - Fill
+          * Component: UnityEngine.RectTransform
+          * Component: UnityEngine.CanvasRenderer
+          * Component: UnityEngine.UI.Image
+  - Diamond (22)
+    * Component: UnityEngine.Transform
+    * Component: UnityEngine.MeshFilter
+    * Component: UnityEngine.MeshRenderer
+    * Component: Diamond
+    * Component: UnityEngine.BoxCollider
+    - Canvas
+      * Component: UnityEngine.RectTransform
+      * Component: UnityEngine.Canvas
+      * Component: UnityEngine.UI.CanvasScaler
+      * Component: UnityEngine.UI.GraphicRaycaster
+      - Slider_LoadingBar
+        * Component: UnityEngine.RectTransform
+        * Component: UnityEngine.CanvasRenderer
+        * Component: UnityEngine.UI.Image
+        * Component: UnityEngine.UI.Slider
+        * Component: DiamondHealthBar
+        - Fill
+          * Component: UnityEngine.RectTransform
+          * Component: UnityEngine.CanvasRenderer
+          * Component: UnityEngine.UI.Image
+  - Diamond (23)
+    * Component: UnityEngine.Transform
+    * Component: UnityEngine.MeshFilter
+    * Component: UnityEngine.MeshRenderer
+    * Component: Diamond
+    * Component: UnityEngine.BoxCollider
+    - Canvas
+      * Component: UnityEngine.RectTransform
+      * Component: UnityEngine.Canvas
+      * Component: UnityEngine.UI.CanvasScaler
+      * Component: UnityEngine.UI.GraphicRaycaster
+      - Slider_LoadingBar
+        * Component: UnityEngine.RectTransform
+        * Component: UnityEngine.CanvasRenderer
+        * Component: UnityEngine.UI.Image
+        * Component: UnityEngine.UI.Slider
+        * Component: DiamondHealthBar
+        - Fill
+          * Component: UnityEngine.RectTransform
+          * Component: UnityEngine.CanvasRenderer
+          * Component: UnityEngine.UI.Image
+  - Diamond (24)
+    * Component: UnityEngine.Transform
+    * Component: UnityEngine.MeshFilter
+    * Component: UnityEngine.MeshRenderer
+    * Component: Diamond
+    * Component: UnityEngine.BoxCollider
+    - Canvas
+      * Component: UnityEngine.RectTransform
+      * Component: UnityEngine.Canvas
+      * Component: UnityEngine.UI.CanvasScaler
+      * Component: UnityEngine.UI.GraphicRaycaster
+      - Slider_LoadingBar
+        * Component: UnityEngine.RectTransform
+        * Component: UnityEngine.CanvasRenderer
+        * Component: UnityEngine.UI.Image
+        * Component: UnityEngine.UI.Slider
+        * Component: DiamondHealthBar
+        - Fill
+          * Component: UnityEngine.RectTransform
+          * Component: UnityEngine.CanvasRenderer
+          * Component: UnityEngine.UI.Image
+  - Diamond (25)
+    * Component: UnityEngine.Transform
+    * Component: UnityEngine.MeshFilter
+    * Component: UnityEngine.MeshRenderer
+    * Component: Diamond
+    * Component: UnityEngine.BoxCollider
+    - Canvas
+      * Component: UnityEngine.RectTransform
+      * Component: UnityEngine.Canvas
+      * Component: UnityEngine.UI.CanvasScaler
+      * Component: UnityEngine.UI.GraphicRaycaster
+      - Slider_LoadingBar
+        * Component: UnityEngine.RectTransform
+        * Component: UnityEngine.CanvasRenderer
+        * Component: UnityEngine.UI.Image
+        * Component: UnityEngine.UI.Slider
+        * Component: DiamondHealthBar
+        - Fill
+          * Component: UnityEngine.RectTransform
+          * Component: UnityEngine.CanvasRenderer
+          * Component: UnityEngine.UI.Image
+  - Diamond (26)
+    * Component: UnityEngine.Transform
+    * Component: UnityEngine.MeshFilter
+    * Component: UnityEngine.MeshRenderer
+    * Component: Diamond
+    * Component: UnityEngine.BoxCollider
+    - Canvas
+      * Component: UnityEngine.RectTransform
+      * Component: UnityEngine.Canvas
+      * Component: UnityEngine.UI.CanvasScaler
+      * Component: UnityEngine.UI.GraphicRaycaster
+      - Slider_LoadingBar
+        * Component: UnityEngine.RectTransform
+        * Component: UnityEngine.CanvasRenderer
+        * Component: UnityEngine.UI.Image
+        * Component: UnityEngine.UI.Slider
+        * Component: DiamondHealthBar
+        - Fill
+          * Component: UnityEngine.RectTransform
+          * Component: UnityEngine.CanvasRenderer
+          * Component: UnityEngine.UI.Image
+  - Diamond (27)
+    * Component: UnityEngine.Transform
+    * Component: UnityEngine.MeshFilter
+    * Component: UnityEngine.MeshRenderer
+    * Component: Diamond
+    * Component: UnityEngine.BoxCollider
+    - Canvas
+      * Component: UnityEngine.RectTransform
+      * Component: UnityEngine.Canvas
+      * Component: UnityEngine.UI.CanvasScaler
+      * Component: UnityEngine.UI.GraphicRaycaster
+      - Slider_LoadingBar
+        * Component: UnityEngine.RectTransform
+        * Component: UnityEngine.CanvasRenderer
+        * Component: UnityEngine.UI.Image
+        * Component: UnityEngine.UI.Slider
+        * Component: DiamondHealthBar
+        - Fill
+          * Component: UnityEngine.RectTransform
+          * Component: UnityEngine.CanvasRenderer
+          * Component: UnityEngine.UI.Image
+  - Diamond (28)
+    * Component: UnityEngine.Transform
+    * Component: UnityEngine.MeshFilter
+    * Component: UnityEngine.MeshRenderer
+    * Component: Diamond
+    * Component: UnityEngine.BoxCollider
+    - Canvas
+      * Component: UnityEngine.RectTransform
+      * Component: UnityEngine.Canvas
+      * Component: UnityEngine.UI.CanvasScaler
+      * Component: UnityEngine.UI.GraphicRaycaster
+      - Slider_LoadingBar
+        * Component: UnityEngine.RectTransform
+        * Component: UnityEngine.CanvasRenderer
+        * Component: UnityEngine.UI.Image
+        * Component: UnityEngine.UI.Slider
+        * Component: DiamondHealthBar
+        - Fill
+          * Component: UnityEngine.RectTransform
+          * Component: UnityEngine.CanvasRenderer
+          * Component: UnityEngine.UI.Image
+  - Diamond (29)
+    * Component: UnityEngine.Transform
+    * Component: UnityEngine.MeshFilter
+    * Component: UnityEngine.MeshRenderer
+    * Component: Diamond
+    * Component: UnityEngine.BoxCollider
+    - Canvas
+      * Component: UnityEngine.RectTransform
+      * Component: UnityEngine.Canvas
+      * Component: UnityEngine.UI.CanvasScaler
+      * Component: UnityEngine.UI.GraphicRaycaster
+      - Slider_LoadingBar
+        * Component: UnityEngine.RectTransform
+        * Component: UnityEngine.CanvasRenderer
+        * Component: UnityEngine.UI.Image
+        * Component: UnityEngine.UI.Slider
+        * Component: DiamondHealthBar
+        - Fill
+          * Component: UnityEngine.RectTransform
+          * Component: UnityEngine.CanvasRenderer
+          * Component: UnityEngine.UI.Image
+  - Diamond (30)
+    * Component: UnityEngine.Transform
+    * Component: UnityEngine.MeshFilter
+    * Component: UnityEngine.MeshRenderer
+    * Component: Diamond
+    * Component: UnityEngine.BoxCollider
+    - Canvas
+      * Component: UnityEngine.RectTransform
+      * Component: UnityEngine.Canvas
+      * Component: UnityEngine.UI.CanvasScaler
+      * Component: UnityEngine.UI.GraphicRaycaster
+      - Slider_LoadingBar
+        * Component: UnityEngine.RectTransform
+        * Component: UnityEngine.CanvasRenderer
+        * Component: UnityEngine.UI.Image
+        * Component: UnityEngine.UI.Slider
+        * Component: DiamondHealthBar
+        - Fill
+          * Component: UnityEngine.RectTransform
+          * Component: UnityEngine.CanvasRenderer
+          * Component: UnityEngine.UI.Image
+  - Diamond (31)
+    * Component: UnityEngine.Transform
+    * Component: UnityEngine.MeshFilter
+    * Component: UnityEngine.MeshRenderer
+    * Component: Diamond
+    * Component: UnityEngine.BoxCollider
+    - Canvas
+      * Component: UnityEngine.RectTransform
+      * Component: UnityEngine.Canvas
+      * Component: UnityEngine.UI.CanvasScaler
+      * Component: UnityEngine.UI.GraphicRaycaster
+      - Slider_LoadingBar
+        * Component: UnityEngine.RectTransform
+        * Component: UnityEngine.CanvasRenderer
+        * Component: UnityEngine.UI.Image
+        * Component: UnityEngine.UI.Slider
+        * Component: DiamondHealthBar
+        - Fill
+          * Component: UnityEngine.RectTransform
+          * Component: UnityEngine.CanvasRenderer
+          * Component: UnityEngine.UI.Image
+  - Diamond (32)
+    * Component: UnityEngine.Transform
+    * Component: UnityEngine.MeshFilter
+    * Component: UnityEngine.MeshRenderer
+    * Component: Diamond
+    * Component: UnityEngine.BoxCollider
+    - Canvas
+      * Component: UnityEngine.RectTransform
+      * Component: UnityEngine.Canvas
+      * Component: UnityEngine.UI.CanvasScaler
+      * Component: UnityEngine.UI.GraphicRaycaster
+      - Slider_LoadingBar
+        * Component: UnityEngine.RectTransform
+        * Component: UnityEngine.CanvasRenderer
+        * Component: UnityEngine.UI.Image
+        * Component: UnityEngine.UI.Slider
+        * Component: DiamondHealthBar
+        - Fill
+          * Component: UnityEngine.RectTransform
+          * Component: UnityEngine.CanvasRenderer
+          * Component: UnityEngine.UI.Image
+  - Diamond (33)
+    * Component: UnityEngine.Transform
+    * Component: UnityEngine.MeshFilter
+    * Component: UnityEngine.MeshRenderer
+    * Component: Diamond
+    * Component: UnityEngine.BoxCollider
+    - Canvas
+      * Component: UnityEngine.RectTransform
+      * Component: UnityEngine.Canvas
+      * Component: UnityEngine.UI.CanvasScaler
+      * Component: UnityEngine.UI.GraphicRaycaster
+      - Slider_LoadingBar
+        * Component: UnityEngine.RectTransform
+        * Component: UnityEngine.CanvasRenderer
+        * Component: UnityEngine.UI.Image
+        * Component: UnityEngine.UI.Slider
+        * Component: DiamondHealthBar
+        - Fill
+          * Component: UnityEngine.RectTransform
+          * Component: UnityEngine.CanvasRenderer
+          * Component: UnityEngine.UI.Image
+  - Diamond (34)
+    * Component: UnityEngine.Transform
+    * Component: UnityEngine.MeshFilter
+    * Component: UnityEngine.MeshRenderer
+    * Component: Diamond
+    * Component: UnityEngine.BoxCollider
+    - Canvas
+      * Component: UnityEngine.RectTransform
+      * Component: UnityEngine.Canvas
+      * Component: UnityEngine.UI.CanvasScaler
+      * Component: UnityEngine.UI.GraphicRaycaster
+      - Slider_LoadingBar
+        * Component: UnityEngine.RectTransform
+        * Component: UnityEngine.CanvasRenderer
+        * Component: UnityEngine.UI.Image
+        * Component: UnityEngine.UI.Slider
+        * Component: DiamondHealthBar
+        - Fill
+          * Component: UnityEngine.RectTransform
+          * Component: UnityEngine.CanvasRenderer
+          * Component: UnityEngine.UI.Image
+  - Diamond (35)
+    * Component: UnityEngine.Transform
+    * Component: UnityEngine.MeshFilter
+    * Component: UnityEngine.MeshRenderer
+    * Component: Diamond
+    * Component: UnityEngine.BoxCollider
+    - Canvas
+      * Component: UnityEngine.RectTransform
+      * Component: UnityEngine.Canvas
+      * Component: UnityEngine.UI.CanvasScaler
+      * Component: UnityEngine.UI.GraphicRaycaster
+      - Slider_LoadingBar
+        * Component: UnityEngine.RectTransform
+        * Component: UnityEngine.CanvasRenderer
+        * Component: UnityEngine.UI.Image
+        * Component: UnityEngine.UI.Slider
+        * Component: DiamondHealthBar
+        - Fill
+          * Component: UnityEngine.RectTransform
+          * Component: UnityEngine.CanvasRenderer
+          * Component: UnityEngine.UI.Image
+  - Diamond (36)
+    * Component: UnityEngine.Transform
+    * Component: UnityEngine.MeshFilter
+    * Component: UnityEngine.MeshRenderer
+    * Component: Diamond
+    * Component: UnityEngine.BoxCollider
+    - Canvas
+      * Component: UnityEngine.RectTransform
+      * Component: UnityEngine.Canvas
+      * Component: UnityEngine.UI.CanvasScaler
+      * Component: UnityEngine.UI.GraphicRaycaster
+      - Slider_LoadingBar
+        * Component: UnityEngine.RectTransform
+        * Component: UnityEngine.CanvasRenderer
+        * Component: UnityEngine.UI.Image
+        * Component: UnityEngine.UI.Slider
+        * Component: DiamondHealthBar
+        - Fill
+          * Component: UnityEngine.RectTransform
+          * Component: UnityEngine.CanvasRenderer
+          * Component: UnityEngine.UI.Image
+  - Diamond (37)
+    * Component: UnityEngine.Transform
+    * Component: UnityEngine.MeshFilter
+    * Component: UnityEngine.MeshRenderer
+    * Component: Diamond
+    * Component: UnityEngine.BoxCollider
+    - Canvas
+      * Component: UnityEngine.RectTransform
+      * Component: UnityEngine.Canvas
+      * Component: UnityEngine.UI.CanvasScaler
+      * Component: UnityEngine.UI.GraphicRaycaster
+      - Slider_LoadingBar
+        * Component: UnityEngine.RectTransform
+        * Component: UnityEngine.CanvasRenderer
+        * Component: UnityEngine.UI.Image
+        * Component: UnityEngine.UI.Slider
+        * Component: DiamondHealthBar
+        - Fill
+          * Component: UnityEngine.RectTransform
+          * Component: UnityEngine.CanvasRenderer
+          * Component: UnityEngine.UI.Image
+  - Diamond (38)
+    * Component: UnityEngine.Transform
+    * Component: UnityEngine.MeshFilter
+    * Component: UnityEngine.MeshRenderer
+    * Component: Diamond
+    * Component: UnityEngine.BoxCollider
+    - Canvas
+      * Component: UnityEngine.RectTransform
+      * Component: UnityEngine.Canvas
+      * Component: UnityEngine.UI.CanvasScaler
+      * Component: UnityEngine.UI.GraphicRaycaster
+      - Slider_LoadingBar
+        * Component: UnityEngine.RectTransform
+        * Component: UnityEngine.CanvasRenderer
+        * Component: UnityEngine.UI.Image
+        * Component: UnityEngine.UI.Slider
+        * Component: DiamondHealthBar
+        - Fill
+          * Component: UnityEngine.RectTransform
+          * Component: UnityEngine.CanvasRenderer
+          * Component: UnityEngine.UI.Image
 ==== SCENE DEBUG END ====
