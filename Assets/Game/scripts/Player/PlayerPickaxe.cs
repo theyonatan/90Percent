@@ -91,6 +91,16 @@ public class PlayerPickaxe : MonoBehaviour
         if (!_unlockedItems.TryAdd(item.ItemName, item))
             Debug.LogError("Item " + item.ItemName + " is already unlocked!");
     }
+
+    public bool IsItemUnlocked(ShopItem item)
+    {
+        return _unlockedItems.ContainsKey(item.ItemName);
+    }
+
+    public bool IsItemEquipped(ShopItem item)
+    {
+        return _pickaxe == item.PickaxeValue;
+    }
     
     public static void CollectDiamond(DiamondType diamondType)
     {

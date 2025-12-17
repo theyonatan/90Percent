@@ -1,6 +1,6 @@
-using System;
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 public class ShopUI : MonoBehaviour
 {
@@ -9,13 +9,20 @@ public class ShopUI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI title;
     [SerializeField] private TextMeshProUGUI description;
     [SerializeField] private TextMeshProUGUI price;
+    [SerializeField] private Button purchaseButton;
+    [SerializeField] private Button equipButton;
 
     public void ChangeItem(ShopItem item)
     {
         ChangeTitle(item.ItemName);
         ChangeDescription(item.Description);
         ChangePrice(item.Price);
+        
         itemDisplay.ChangeDisplayedItem(item.ItemPrefab);
+        
+        purchaseButton.interactable = !PlayerPickaxe.Instance.IsItemUnlocked(item);
+        equipButton.interactable = PlayerPickaxe.Instance.IsItemUnlocked(item) 
+                                   && !PlayerPickaxe.Instance.IsItemEquipped(item);
     }
     
     private void ChangeTitle(string newTitle)

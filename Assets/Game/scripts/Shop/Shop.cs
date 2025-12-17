@@ -1,5 +1,3 @@
-using System;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Shop : MonoBehaviour
@@ -22,8 +20,8 @@ public class Shop : MonoBehaviour
             .GetComponentInChildren<PickaxeEquipper>();
         
         // disable canvas on load
-        shopUI.gameObject.SetActive(false);
         shopUI.ChangeItem(shopItems[_selectedItem]);
+        shopUI.gameObject.SetActive(false);
     }
 
     public void PurchaseSelectedItem()
@@ -34,7 +32,10 @@ public class Shop : MonoBehaviour
         
         Debug.Log("Purchasing item " + shopItems[_selectedItem].ItemName);
         PlayerPickaxe.Instance.UnlockItem(shopItems[_selectedItem]);
-        EquipSelectedItem();
+        shopUI.ChangeItem(shopItems[_selectedItem]); // show unlocked
+        
+        // like a good merchant, we take the diamonds at the end.
+        StatsSingleton.Instance.DecreamentStat(StatType.Diamonds, diamonds);
     }
 
     public void EquipSelectedItem()
@@ -54,6 +55,8 @@ public class Shop : MonoBehaviour
                 Debug.LogError("tried to equip Unknown item type");
                 break;
         }
+        
+        shopUI.ChangeItem(item);
     }
     
     
