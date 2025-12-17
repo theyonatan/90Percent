@@ -60,7 +60,8 @@ GameObject:
   - component: {fileID: 5985708867267845588}
   - component: {fileID: 6191949209774406718}
   - component: {fileID: 2596224336410596462}
-  - component: {fileID: 8392377980128155954}
+  - component: {fileID: 5814308270633447043}
+  - component: {fileID: 2072567987598117979}
   m_Layer: 7
   m_Name: player
   m_TagString: Player
@@ -201,7 +202,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: story::StoryCharacter
   CharacterStory: {fileID: 11400000, guid: e321a762d96b56544a584eb6513b577f, type: 2}
   headPosition: {fileID: 563614199713887478}
---- !u!114 &8392377980128155954
+--- !u!114 &5814308270633447043
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -210,9 +211,23 @@ MonoBehaviour:
   m_GameObject: {fileID: 580851648855884116}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a9e03c9ecf5ea5a429954f595d915e29, type: 3}
+  m_Script: {fileID: 11500000, guid: 8344640b7c8b06d49b7430e751a2a7e5, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: PlayerAddons::ExtensionInteractier
+  m_EditorClassIdentifier: Diamonds::ExtensionDiamondInteract
+  InteractorSource: {fileID: 563614199713887478}
+  InteractRange: 10
+--- !u!114 &2072567987598117979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 580851648855884116}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 71e80536f6fae0a44af8dc49ebaa95f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Diamonds::ExtensionRanchInteract
   InteractorSource: {fileID: 563614199713887478}
   InteractRange: 10
 --- !u!1 &1880853046259050506

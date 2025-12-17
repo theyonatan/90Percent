@@ -1,0 +1,5 @@
+
+public interface RanchInteractable : Interactable
+{
+    
+}

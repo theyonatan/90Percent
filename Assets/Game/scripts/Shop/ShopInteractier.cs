@@ -1,8 +1,7 @@
-using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ShopInteractier : MonoBehaviour, Interactable
+public class ShopInteractier : MonoBehaviour, RanchInteractable
 {
     [SerializeField] private Shop shop;
     [SerializeField] private GameObject interactIcon;
