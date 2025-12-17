@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: b1f5ab73a1333f54c8c94115815b97e8
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 0
+  packageName: Post Apocalyptic Town URP
+  packageVersion: 2.1
+  assetPath: Assets/ThirdParty/HIVEMIND/PostApocalypticTown/URP/Art/Shaders/S_BasicTextured.shadergraph
+  uploadId: 737863

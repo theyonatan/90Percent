@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 1c73351a018566e4fa25d41d6d9d3f49
+timeCreated: 1523727809
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 185364
+  packageName: HQ Survival Pack
+  packageVersion: 1.3
+  assetPath: Assets/SEP/Prefabs/Objects/Lantern_ON.prefab
+  uploadId: 407923

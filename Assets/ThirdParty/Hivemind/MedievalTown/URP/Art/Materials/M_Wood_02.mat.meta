@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: abc00000000006589928001882604734
+NativeFormatImporter:
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 0
+  packageName: Medieval Town URP
+  packageVersion: 1.0
+  assetPath: Assets/ThirdParty/Hivemind/MedievalTown/URP/Art/Materials/M_Wood_02.mat
+  uploadId: 702016

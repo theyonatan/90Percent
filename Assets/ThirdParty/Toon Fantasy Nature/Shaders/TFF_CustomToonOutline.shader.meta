@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 11cb3c27d84b6b948a9a0d5350d2ae5a
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 0
+  packageName: URP Toon Fantasy Nature 2023.2.5
+  packageVersion: 1.0.4
+  assetPath: Assets/ThirdParty/Toon Fantasy Nature/Shaders/TFF_CustomToonOutline.shader
+  uploadId: 782988

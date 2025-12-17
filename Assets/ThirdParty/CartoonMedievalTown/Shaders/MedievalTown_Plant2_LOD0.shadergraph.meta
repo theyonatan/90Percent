@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: f700fbcdac8804295b36ba90e3307256
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}
+AssetOrigin:
+  serializedVersion: 1
+  productId: 0
+  packageName: Cartoon Medieval Town 2020.3 URP 1.03
+  packageVersion: 1.03
+  assetPath: Assets/ThirdParty/CartoonMedievalTown/Shaders/MedievalTown_Plant2_LOD0.shadergraph
+  uploadId: 702377

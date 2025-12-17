@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2eaa5270c81a2e9428199805b85259f7
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 0
+  packageName: Low Poly RPGWeapons 2020.3.0 URP V1.0
+  packageVersion: 1.03
+  assetPath: Assets/ThirdParty/LowPolyRPGWeapons/Materials/LowPolyRPGWeapons_MAIN.mat
+  uploadId: 702377
