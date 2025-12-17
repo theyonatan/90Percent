@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c278153ac706762499b00a38fe527579
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 0
+  packageName: Modular Medieval Town URP
+  packageVersion: 2.1
+  assetPath: Assets/ThirdParty/Hivemind/ModularMedievalTown/URP/Art/Materials/M_anvil_pipe_01.mat
+  uploadId: 696723
