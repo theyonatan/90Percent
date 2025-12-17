@@ -17,11 +17,6 @@ public class ShopInteractier : MonoBehaviour, RanchInteractable
 
     public void MarkAsInteractable()
     {
-        DisplayInteractGui();
-    }
-
-    private void DisplayInteractGui()
-    {
         interactIcon.SetActive(true);
     }
 
