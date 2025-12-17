@@ -94,6 +94,8 @@ public class PlayerPickaxe : MonoBehaviour
     
     public static void CollectDiamond(DiamondType diamondType)
     {
+        Debug.Log($"Collecting Diamond {diamondType}");
+        
         int amountOfNewDiamonds = diamondType switch
         {
             DiamondType.Blue => 1,

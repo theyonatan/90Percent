@@ -1,13 +1,14 @@
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class Shop : MonoBehaviour
 {
     private StoryExecuter _storyExecuter;
+    private PickaxeEquipper _pickaxeEquipper;
     [SerializeField] private GameObject[] hideOnShopMenuObjects;
-    [SerializeField] private GameObject shopUICanvas;
+    [SerializeField] private ShopUI shopUI;
 
-    private ShopItemDisplay _itemDisplay;
     public bool IsShopUIOpen;
     [SerializeField] private ShopItem[] shopItems;
     private int _selectedItem;
@@ -15,19 +16,21 @@ public class Shop : MonoBehaviour
     private void Start()
     {
         _selectedItem = 0;
-        _itemDisplay = GetComponentInChildren<ShopItemDisplay>();
-        
-        // disable canvas on load
-        shopUICanvas.SetActive(false);
         
         _storyExecuter = StoryExecuter.Instance;
+        _pickaxeEquipper = FindFirstObjectByType<Player>().GetCamera()
+            .GetComponentInChildren<PickaxeEquipper>();
+        
+        // disable canvas on load
+        shopUI.gameObject.SetActive(false);
+        shopUI.ChangeItem(shopItems[_selectedItem]);
     }
 
     public void PurchaseSelectedItem()
     {
         int diamonds = (int)StatsSingleton.Instance.GetStat(StatType.Diamonds).Value;
 
-        if (shopItems[_selectedItem].Price >= diamonds) return;
+        if (shopItems[_selectedItem].Price > diamonds) return;
         
         Debug.Log("Purchasing item " + shopItems[_selectedItem].ItemName);
         PlayerPickaxe.Instance.UnlockItem(shopItems[_selectedItem]);
@@ -36,14 +39,13 @@ public class Shop : MonoBehaviour
 
     public void EquipSelectedItem()
     {
-        PlayerPickaxe player = PlayerPickaxe.Instance;
         ShopItem item = shopItems[_selectedItem];
         
         switch (shopItems[_selectedItem].ItemType)
         {
             case ShopItemType.Pickaxe:
                 Debug.Log($"Equipped pickaxe {item.ItemName}");
-                player.EquipPickaxe(item.PickaxeValue);
+                _pickaxeEquipper.EquipItem(item);
                 break;
             case ShopItemType.Strengthner:
                 Debug.Log("equipped strengthner");
@@ -56,33 +58,21 @@ public class Shop : MonoBehaviour
     
     
     // select next items, wrap around if went over
-    public void SelectNextItem()
-    {
-        if (shopItems.Length == 0)
-        {
-            Debug.LogError("Add items to shop!");
-            return;
-        }
-        
-        // wrap around shopItems length
-        _selectedItem = (_selectedItem + 1) % shopItems.Length;
-        if (shopItems.Length > 0)
-            _itemDisplay.ChangeDisplayedItem(shopItems[_selectedItem].ItemPrefab);
-    }
+    public void SelectNextItem() => ChangeSelectedItem(1);
 
-    public void SelectPreviousItem()
+    public void SelectPreviousItem() => ChangeSelectedItem(-1);
+    
+    private void ChangeSelectedItem(int direction)
     {
         if (shopItems.Length == 0)
         {
             Debug.LogError("Add items to shop!");
             return;
         }
-        
+    
         // wrap around shopItems length
-        _selectedItem = (_selectedItem - 1) % shopItems.Length;
-        Debug.LogError($"selected {_selectedItem}");
-        if (shopItems.Length > 0)
-            _itemDisplay.ChangeDisplayedItem(shopItems[_selectedItem].ItemPrefab);
+        _selectedItem = (_selectedItem + direction + shopItems.Length) % shopItems.Length;
+        shopUI.ChangeItem(shopItems[_selectedItem]);
     }
     
     public void QuitShopMenu()
@@ -114,7 +104,7 @@ public class Shop : MonoBehaviour
             distraction.SetActive(false);
         }
         
-        shopUICanvas.SetActive(true);
+        shopUI.gameObject.SetActive(true);
     }
 
     private void EnableShopMenuHidingObjects()
@@ -124,6 +114,12 @@ public class Shop : MonoBehaviour
             distraction.SetActive(true);
         }
         
-        shopUICanvas.SetActive(false);
+        shopUI.gameObject.SetActive(false);
+    }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.T))
+            PlayerPickaxe.CollectDiamond(DiamondType.Blue);
     }
 }

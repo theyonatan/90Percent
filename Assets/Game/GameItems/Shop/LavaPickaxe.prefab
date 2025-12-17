@@ -11,9 +11,8 @@ GameObject:
   - component: {fileID: 8537608393886464981}
   - component: {fileID: 115411068407874863}
   - component: {fileID: 8945834551262744866}
-  - component: {fileID: 5047191595667980048}
   m_Layer: 0
-  m_Name: ShopLavaPickaxe
+  m_Name: LavaPickaxe
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -90,16 +89,3 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!114 &5047191595667980048
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8259017462448493832}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9350f909b934df24fad7ebbcc59f0377, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: overall::RotateAlways
-  rotationSpeed: 25
