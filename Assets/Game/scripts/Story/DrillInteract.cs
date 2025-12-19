@@ -1,29 +1,29 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DrillInteract : RanchInteractable
+public class DrillInteract : MonoBehaviour, RanchInteractable
 {
     public void Interact()
     {
         // story: about the drill
         var storyExecuter = StoryExecuter.Instance;
-        
-        Dictionary<Characters, StoryCharacter> storyCharacters = StoryHelper.GatherCharacters();
         var system = storyExecuter.GetSystem();
-        Dictionary<string, CutsceneCamera> cutsceneCameras = CutscenesHelper.GatherCutsceneCameras();
         
         // chapter
-        _storyExecuter.SetChapter("EnterShop");
+        storyExecuter.SetChapter("DrillInteract");
         
-        // show intro cutscene
         system.DisableInput();
         system.SwapPlayerState<DefaultMovementState, CameraStateInPlace>();
-        system.ShowMovieBars();
-        system.SwapCamera(cutsceneCameras["ShopCamera"], player.transform);
-        system.ShowCursor();
+        system.SwapCamera(CutscenesHelper.LocateCamera("DrillCam"), null);
+
+        system.Say("This bad boy can save your ass at any depth!");
+        system.Say("*insurance not included");
+        
+        system.EnableInput();
+        system.SwapPlayerState<cc_fpState, FP_CameraState>();
         
         // end
-        _storyExecuter.startChapter();
+        storyExecuter.startChapter();
     }
 
     public void MarkAsInteractable()
