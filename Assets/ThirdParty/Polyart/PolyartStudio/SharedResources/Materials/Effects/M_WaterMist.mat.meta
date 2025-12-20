@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: c4095c410f0aed34c8aa312a427cf21a
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 0
+  packageName: Tower URP 2021
+  packageVersion: 1.1
+  assetPath: Assets/ThirdParty/Polyart/PolyartStudio/SharedResources/Materials/Effects/M_WaterMist.mat
+  uploadId: 723103

@@ -13,9 +13,12 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _CAUSTICSMODE_2D
+  - _CAUSTICS_ON
   - _COLORMODE_COLORS
+  - _EDGEFADE_ON
   - _FOAM_RIPPLE_ON
   - _NORMALSMODE_SINGLE
+  - _SCATTERING_ON
   - _ZWRITE_ON
   m_InvalidKeywords:
   - _DISPLACEMENTMODE_OFF
@@ -138,7 +141,7 @@ Material:
     - _CapsScatteringIntensity: 1
     - _CapsScatteringRangeMax: 1
     - _CapsScatteringRangeMin: 0
-    - _Caustics: 0
+    - _Caustics: 1
     - _CausticsAngleMask: 0
     - _CausticsDirectionMask: 0
     - _CausticsDistortion: 0.1
@@ -149,7 +152,7 @@ Material:
     - _CausticsTiling3D: 0.5
     - _ClearCoatMask: 0
     - _ClearCoatSmoothness: 0
-    - _ClustersCount: 0
+    - _ClustersCount: 1
     - _ColorMode: 0
     - _Cull: 2
     - _CullMode: 2
@@ -168,8 +171,8 @@ Material:
     - _DynamicEffects: 0
     - _DynamicFoam: 1
     - _DynamicNormal: 1
-    - _EdgeFade: 0
-    - _EdgeSize: 1
+    - _EdgeFade: 1
+    - _EdgeSize: 0.05
     - _EnvironmentReflections: 1
     - _FlowIntensity: 0.1
     - _FlowSpeed: 5
@@ -199,13 +202,13 @@ Material:
     - _Parallax: 0.005
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _ReflectionDistortion: 0.5
-    - _ReflectionFresnel: 4
-    - _ReflectionFresnelNormal: 0.25
-    - _ReflectionIntensity: 1
+    - _ReflectionDistortion: 0
+    - _ReflectionFresnel: 16
+    - _ReflectionFresnelNormal: 0.175
+    - _ReflectionIntensity: 0.054
     - _ReflectionMode: 0
-    - _ReflectionRoughness: 0.1
-    - _Scattering: 0
+    - _ReflectionRoughness: 0.358
+    - _Scattering: 1
     - _ScatteringIntensity: 1
     - _ScatteringRangeMax: 1
     - _ScatteringRangeMin: 0
@@ -219,7 +222,7 @@ Material:
     - _WaveAmplitude: 1
     - _WaveCount: 1
     - _WaveEffectsBoost: 0
-    - _WaveEndDistance: 1000
+    - _WaveEndDistance: 59.7
     - _WaveLength: 8
     - _WaveNormal: 1
     - _WaveSpeed: 10
@@ -260,7 +263,7 @@ Material:
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
     - _UnderWaterColor: {r: 0.24999997, g: 0.32999998, b: 0.45, a: 0.25}
     - _WaveOffsets: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
-    - _WaveParams1: {r: 10, g: 0.5, b: 10, a: 0}
+    - _WaveParams1: {r: 1, g: 0.22, b: 1.94, a: 0}
     - _WaveParams2: {r: 8, g: 0.5, b: 10, a: 0}
     - _WaveParams3: {r: 6, g: 0.5, b: 10, a: 0}
     - _WaveParams4: {r: 3, g: 0.5, b: 10, a: 0}

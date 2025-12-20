@@ -77,7 +77,7 @@ MonoBehaviour:
     isTagFilteringEnabled: 0
     tagFilter: 
   primarySelectedBrush:
-    brushObject: {fileID: 1030977417, guid: abc00000000013138366530811703213, type: 3}
+    brushObject: {fileID: 1030977426, guid: abc00000000011590602649403170180, type: 3}
     usePrefabs: 1
     allowIntercollision: 0
     alignToSurface: 1
@@ -99,7 +99,7 @@ MonoBehaviour:
     isTagFilteringEnabled: 0
     tagFilter: 
   selectedBrushes:
-  - brushObject: {fileID: 1030977417, guid: abc00000000013138366530811703213, type: 3}
+  - brushObject: {fileID: 1030977426, guid: abc00000000011590602649403170180, type: 3}
     usePrefabs: 1
     allowIntercollision: 0
     alignToSurface: 1

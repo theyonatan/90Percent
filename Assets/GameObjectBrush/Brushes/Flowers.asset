@@ -100,7 +100,7 @@ MonoBehaviour:
   - brushObject: {fileID: 1030982105, guid: abc00000000011526169321707356271, type: 3}
     usePrefabs: 1
     allowIntercollision: 0
-    alignToSurface: 0
+    alignToSurface: 1
     randomizeXRotation: 0
     randomizeYRotation: 1
     randomizeZRotation: 0
