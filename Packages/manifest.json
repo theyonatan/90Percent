@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.radiatoryang.hedera": "https://github.com/radiatoryang/hedera.git",
     "com.unity.addressables": "2.7.6",
     "com.unity.ai.navigation": "2.0.9",
     "com.unity.burst": "1.8.27",
