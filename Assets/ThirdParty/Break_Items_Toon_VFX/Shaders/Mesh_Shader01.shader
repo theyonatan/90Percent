@@ -9,7 +9,8 @@ Shader "Mesh_Shader01"
 		[HDR]_Light_Color("Light_Color", Color) = (1,1,1,0)
 		_Fresnel("Fresnel", Range( 0 , 5)) = 0
 		[HideInInspector] _texcoord( "", 2D ) = "white" {}
-
+		[HDR]_EmissionColor("Emission Color", Color) = (0,0,0,0)
+		_EmissionIntensity("Emission Intensity", Range(0,10)) = 1
 	}
 	
 	SubShader
@@ -78,6 +79,8 @@ Shader "Mesh_Shader01"
 			uniform float _Fresnel;
 			uniform sampler2D _Texture;
 			uniform float4 _Texture_ST;
+			uniform float4 _EmissionColor;
+			float _EmissionIntensity;
 
 			
 			v2f vert ( appdata v )
@@ -139,7 +142,7 @@ Shader "Mesh_Shader01"
 				float4 appendResult9 = (float4(( ( ( _Light_Color + ( saturate( ( _Color0 * ( 1.0 - fresnelNode28 ) ) ) * ( fresnelNode39 * 5.0 ) ) ) * i.ase_color ) * tex2D( _Texture, uv_Texture ) ).rgb , 1.0));
 				
 				
-				finalColor = appendResult9;
+				finalColor = appendResult9 + _EmissionColor * _EmissionIntensity;
 				return finalColor;
 			}
 			ENDCG

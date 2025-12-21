@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e620295d0866c30418158f32535dae58
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 0
+  packageName: URP 17.1 Unity 6.1 Ice World
+  packageVersion: 2.0.6
+  assetPath: Assets/ThirdParty/NatureManufacture Assets/Object Shaders/NMParallaxLayers.hlsl
+  uploadId: 751940

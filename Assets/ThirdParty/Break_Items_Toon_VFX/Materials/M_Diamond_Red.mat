@@ -104,9 +104,10 @@ Material:
     - _DetailAlbedoMapScale: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
+    - _EmissionIntensity: 0.81
     - _EnvironmentReflections: 1
     - _Freshel: 2.43
-    - _Fresnel: 4.0588236
+    - _Fresnel: 0.3
     - _GlossMapScale: 0
     - _Glossiness: 0
     - _GlossyReflections: 0
@@ -126,9 +127,9 @@ Material:
     m_Colors:
     - _BaseColor: {r: 1, g: 0.4404881, b: 0, a: 1}
     - _Color: {r: 1, g: 1, b: 1, a: 1}
-    - _Color0: {r: 0.3018868, g: 0.0042719753, b: 0.008922207, a: 0}
-    - _EmissionColor: {r: 1.4745098, g: 0.32941177, b: 0.047058824, a: 1}
-    - _Light_Color: {r: 0.2924528, g: 0.007939896, b: 0, a: 0}
+    - _Color0: {r: 0.254717, g: 0, b: 0.034537945, a: 1}
+    - _EmissionColor: {r: 0.41509432, g: 0, b: 0.004883586, a: 1}
+    - _Light_Color: {r: 0.46226418, g: 0.012689606, b: 0, a: 1}
     - _SpecColor: {r: 0.19999996, g: 0.19999996, b: 0.19999996, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1

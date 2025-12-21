@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: eef81f7e3e505b74880427d219e5da4f
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 0
+  packageName: URP 17.1 Unity 6.1 Ice World
+  packageVersion: 2.0.6
+  assetPath: Assets/ThirdParty/NatureManufacture Assets/Object Shaders/NM_Lit_Ice_Specular_Cover.shader
+  uploadId: 751940
