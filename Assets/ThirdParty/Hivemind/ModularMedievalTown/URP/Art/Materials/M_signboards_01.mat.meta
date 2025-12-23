@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 5282c9ccf08585e4d8f7cf45873a9694
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 0
+  packageName: Modular Medieval Town URP
+  packageVersion: 2.1
+  assetPath: Assets/ThirdParty/Hivemind/ModularMedievalTown/URP/Art/Materials/M_signboards_01.mat
+  uploadId: 696723
