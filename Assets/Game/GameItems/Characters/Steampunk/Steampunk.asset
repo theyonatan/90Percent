@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89ba6f873b0c5444a8c82ad52d95a856, type: 3}
   m_Name: Steampunk
   m_EditorClassIdentifier: story::StoryCharacterPrefab
-  character: 11
+  CharacterName: Steampunk
+  character: 0
   prefab: {fileID: 7287834880838726884, guid: df036f8741f0b0d4b8e9fa9e81b51290, type: 3}
   ShowTailWhenTalking: 1

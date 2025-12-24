@@ -33,15 +33,16 @@ public class ShopInteractier : MonoBehaviour, RanchInteractable
             return;
         }
 
+        StopMarking();
+        
         shop.IsShopUIOpen = true;
         shop.DisableShopMenuHidingObjects();
         
         // setup enter shop
         _storyExecuter = StoryExecuter.Instance;
         
-        Dictionary<Characters, StoryCharacter> storyCharacters = StoryHelper.GatherCharacters();
-        StoryCharacter player = storyCharacters[Characters.Player];
         var system = _storyExecuter.GetSystem();
+        StoryCharacter player = StoryHelper.GatherSpecific("Player");
         Dictionary<string, CutsceneCamera> cutsceneCameras = CutscenesHelper.GatherCutsceneCameras();
         
         // chapter

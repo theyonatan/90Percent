@@ -2049,6 +2049,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4747016656410007169}
   - component: {fileID: 5723851235907036497}
+  - component: {fileID: 3059528689835143398}
   m_Layer: 0
   m_Name: SteampunkCharacter
   m_TagString: Untagged
@@ -2087,7 +2088,31 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: story::StoryCharacter
   CharacterStory: {fileID: 0}
+  CutsceneId: 
   headPosition: {fileID: 0}
+--- !u!136 &3059528689835143398
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7287834880838726884}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.7848618
+  m_Height: 4.7376785
+  m_Direction: 1
+  m_Center: {x: -0.13509715, y: 1.8688395, z: 0.0000000034811931}
 --- !u!1 &7554907828388810282
 GameObject:
   m_ObjectHideFlags: 0
