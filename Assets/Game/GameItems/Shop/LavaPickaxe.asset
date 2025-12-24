@@ -13,7 +13,8 @@ MonoBehaviour:
   m_Name: LavaPickaxe
   m_EditorClassIdentifier: Diamonds::ShopItem
   ItemName: Lava Pickaxe
-  Description: Ok, getting fancier. this can mine red diamonds.
+  Description: Ok, getting fancier. this can mine red diamonds.\nIt looks like it
+    could destroy a Titan
   ItemType: 0
   PickaxeValue: 1
   OtherItemValue: 
