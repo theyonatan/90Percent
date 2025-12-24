@@ -16,7 +16,7 @@ public class CaveStory : MonoBehaviour
         system.ShowMovieBars();
         
         // cutscene
-        system.SwapCamera(CutscenesHelper.LocateCamera("TitanCam"), continueStoryOverCamera: false);
+        // system.SwapCamera(CutscenesHelper.LocateCamera("TitanCam"), continueStoryOverCamera: false);
         // titan.Say("Mortal...");
         // titan.Say("You still cling to the illusion of freedom in this broken realm...");
         // titan.Say("Once, I believed the same... a world worth guarding, worth enduring for.");

@@ -61,7 +61,7 @@ public class TitanBossAgent : IGoapAgent
             
             new AgentAction.Builder("FacePlayer")
                 .WithStrategy(new LookAtStrategy(
-                    AgentNavmesh, 
+                    AgentNavmesh.transform, 
                     () => ChaseSensor.TargetPosition, 
                     rotationSpeed: 8f,
                     onComplete: null))
@@ -71,6 +71,7 @@ public class TitanBossAgent : IGoapAgent
             
             new AgentAction.Builder("AttackPlayer")
             .WithStrategy(new AttackStrategy(GAnimator))
+            .AddPrecondition(Beliefs["PlayerInAttackRange"])
             .AddPrecondition(Beliefs["FacingPlayer"])
             .AddEffect(Beliefs["AttackingPlayer"])
             .Build()
