@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 89ba6f873b0c5444a8c82ad52d95a856, type: 3}
   m_Name: Titan
   m_EditorClassIdentifier: story::StoryCharacterPrefab
-  character: 13
+  CharacterName: Titan
+  character: 0
   prefab: {fileID: 276273694113056796, guid: 977b79eee60b7b14494027dc2f910e06, type: 3}
   ShowTailWhenTalking: 1
