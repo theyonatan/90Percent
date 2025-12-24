@@ -8,8 +8,11 @@ public class TitanBossAgent : IGoapAgent
     private Sensor ChaseSensor => Sensors["ChaseSensor"];
     private Sensor AttackSensor => Sensors["AttackSensor"];
     
+    private GameObject _hitHitbox;
+    
     protected override void OnStart()
     {
+        _hitHitbox = GetComponentInChildren<TitanHitbox>().gameObject;
         DisableGoap();
     }
 
@@ -70,7 +73,7 @@ public class TitanBossAgent : IGoapAgent
                 .Build(),
             
             new AgentAction.Builder("AttackPlayer")
-            .WithStrategy(new AttackStrategy(GAnimator))
+            .WithStrategy(new TitanAttackStrategy(GAnimator, _hitHitbox))
             .AddPrecondition(Beliefs["PlayerInAttackRange"])
             .AddPrecondition(Beliefs["FacingPlayer"])
             .AddEffect(Beliefs["AttackingPlayer"])

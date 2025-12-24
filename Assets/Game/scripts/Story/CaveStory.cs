@@ -36,6 +36,17 @@ public class CaveStory : MonoBehaviour
         executer.startChapter();
     }
 
+    public void ActivateTitanFight()
+    {
+        var characters = StoryHelper.GatherCharacters("Before Titan Fight");
+        var titan = characters["Titan"];
+        IGoapAgent titanAgent = titan.GetComponent<IGoapAgent>();
+        
+        if (titanAgent.IsEnabled())
+            return;
+        titanAgent.EnableGoap();
+    }
+
     public void AfterBattle()
     {
         // you are not like the rest of them
