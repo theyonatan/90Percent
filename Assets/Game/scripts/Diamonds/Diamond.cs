@@ -67,6 +67,10 @@ public class Diamond : MonoBehaviour, Interactable
         }
         PlayerPickaxe.CollectDiamond(DiamondType);
         Destroy(gameObject);
+        
+        // titan death
+        if (transform.parent.TryGetComponent(out KillTitan killTitan))
+            killTitan.KillTheTitan();
     }
 
     private void DestroyVfx()
