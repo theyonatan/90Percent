@@ -1,6 +1,5 @@
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Assertions.Must;
 
 public class TitanBossAgent : IGoapAgent
 {
@@ -13,6 +12,7 @@ public class TitanBossAgent : IGoapAgent
     protected override void OnStart()
     {
         _hitHitbox = GetComponentInChildren<TitanHitbox>().gameObject;
+        _hitHitbox.SetActive(false);
         DisableGoap();
     }
 

@@ -1,14 +1,7 @@
 fileFormatVersion: 2
-guid: 977b79eee60b7b14494027dc2f910e06
+guid: dac2bffed906a3145ab61f107506df33
 PrefabImporter:
   externalObjects: {}
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 181222
-  packageName: Kaiju: Low Poly Titans
-  packageVersion: 1.0
-  assetPath: Assets/ThirdParty/Kaiju - Low Poly Giant Monsters/Contents/Prefabs/Forest Titan.prefab
-  uploadId: 396261
