@@ -108,10 +108,14 @@ PrefabInstance:
       propertyPath: m_LocalPosition.z
       value: 0.0069274902
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 4329356354158035733, guid: 977b79eee60b7b14494027dc2f910e06, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 276273694113056796, guid: 977b79eee60b7b14494027dc2f910e06, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4819097136521871716}
     - targetCorrespondingSourceObject: {fileID: 5912041992351795059, guid: 977b79eee60b7b14494027dc2f910e06, type: 3}
       insertIndex: -1
       addedObject: {fileID: 5428283199085047192}
@@ -488,8 +492,8 @@ SphereCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 3
-  m_Radius: 0.11955261
-  m_Center: {x: 0, y: 0.11955261, z: 0}
+  m_Radius: 313.63547
+  m_Center: {x: -2.1499252, y: 197.06403, z: 2.345879}
 --- !u!54 &105132095103000749
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1068,6 +1072,24 @@ CharacterJoint:
   m_EnablePreprocessing: 0
   m_MassScale: 1
   m_ConnectedMassScale: 1
+--- !u!1 &6533716192944294136 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 276273694113056796, guid: 977b79eee60b7b14494027dc2f910e06, type: 3}
+  m_PrefabInstance: {fileID: 6447440753819730148}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &4819097136521871716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6533716192944294136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e89da651a55f494bbb87a6ad8fe570e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Diamonds::KillTitan
+  storyTitan: 0
 --- !u!1 &6989927630609023501 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4069247531562746601, guid: 977b79eee60b7b14494027dc2f910e06, type: 3}
