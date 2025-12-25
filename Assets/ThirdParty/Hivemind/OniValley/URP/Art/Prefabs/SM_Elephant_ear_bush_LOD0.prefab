@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1031689945}
   - component: {fileID: 1031689946}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: SM_Elephant_ear_bush_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -69,7 +69,7 @@ GameObject:
   - component: {fileID: 1031689949}
   - component: {fileID: 1031689950}
   - component: {fileID: 1031689951}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: SM_Elephant_ear_bush_LOD0_LOD0
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -159,7 +159,7 @@ GameObject:
   - component: {fileID: 1031689953}
   - component: {fileID: 1031689954}
   - component: {fileID: 1031689955}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: SM_Elephant_ear_bush_LOD0_LOD1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
