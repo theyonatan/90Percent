@@ -21,6 +21,8 @@ public class KillTitan : MonoBehaviour
         
         Animator animator = GetComponent<Animator>();
         
+        GetComponent<TitanBossAgent>().Dead = true;
+        
         if (storyTitan)
         {
             animator.SetBool(Dead, true);

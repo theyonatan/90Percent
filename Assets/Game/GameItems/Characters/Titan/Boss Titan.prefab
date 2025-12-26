@@ -72,12 +72,12 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 276273694112961596}
+  - component: {fileID: 1559605882760033086}
   - component: {fileID: 276273694122556368}
   - component: {fileID: 4329356354158035733}
   - component: {fileID: 7560856320078112047}
   - component: {fileID: 7711247210398721860}
   - component: {fileID: 6563611560722369312}
-  - component: {fileID: 1559605882760033086}
   m_Layer: 0
   m_Name: Boss Titan
   m_TagString: Enemy
@@ -104,6 +104,29 @@ Transform:
   - {fileID: 5756808786530548274}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1559605882760033086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 276273694113056796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30240c368d8096a46b8ab00f0e5c5291, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Diamonds::TitanBossAgent
+  goapAgentEnabled: 0
+  logAgent: 0
+  Sensors:
+    _serializedList:
+    - Key: ChaseSensor
+      Value: {fileID: 0}
+    - Key: AttackSensor
+      Value: {fileID: 833139846174638767}
+  Locations:
+    _serializedList: []
+  KnockedDown: 0
 --- !u!95 &276273694122556368
 Animator:
   serializedVersion: 7
@@ -200,28 +223,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: goapai::GoapAnimationMapper
   Fight: Titan Punch
   Dance: dance
---- !u!114 &1559605882760033086
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 276273694113056796}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 30240c368d8096a46b8ab00f0e5c5291, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Diamonds::TitanBossAgent
-  goapAgentEnabled: 0
-  logAgent: 0
-  Sensors:
-    _serializedList:
-    - Key: ChaseSensor
-      Value: {fileID: 0}
-    - Key: AttackSensor
-      Value: {fileID: 833139846174638767}
-  Locations:
-    _serializedList: []
+  Falldown: falldown
 --- !u!1 &382182722388096292
 GameObject:
   m_ObjectHideFlags: 0
@@ -602,6 +604,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!114 &3089556710139542572
 MonoBehaviour:
@@ -2689,6 +2692,7 @@ MeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
 --- !u!65 &8806787441024797768
 BoxCollider:
@@ -3202,6 +3206,7 @@ SkinnedMeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   serializedVersion: 2
   m_Quality: 0
   m_UpdateWhenOffscreen: 0

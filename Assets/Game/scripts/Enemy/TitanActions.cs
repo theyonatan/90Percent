@@ -37,3 +37,40 @@ public class TitanAttackStrategy : IActionStrategy
             });
     }
 }
+
+public class TitanFallDownStrategy : IActionStrategy
+{
+    public bool CanPerform => true;
+    public bool Complete { get; private set; }
+
+    private readonly CountdownTimer _timer;
+    private readonly GoapAnimator _goapAnimator;
+    
+    private readonly TitanBossAgent _bossAgent;
+    
+    public TitanFallDownStrategy(GoapAnimator goapAnimator, TitanBossAgent agent)
+    {
+        _goapAnimator = goapAnimator;
+        _bossAgent = agent;
+    }
+
+    public void Start()
+    {
+        _bossAgent.DisableGoap();
+        Complete = false;
+        _bossAgent.KnockedDown = false;
+        
+        _goapAnimator.TriggerAnimationUsingTimer("falldown","FallDown",
+            () =>
+            {
+                _goapAnimator.TriggerAnimationUsingTimer("wakeup", "Getup", () =>
+                {
+                    Complete = true;
+                    
+                    // enable agent if player didn't kill him while lying down
+                    if (!_bossAgent.Dead)
+                        _bossAgent.EnableGoap();
+                });
+            });
+    }
+}

@@ -1,5 +1,6 @@
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Assertions.Must;
 
 public class TitanBossAgent : IGoapAgent
 {
@@ -8,6 +9,8 @@ public class TitanBossAgent : IGoapAgent
     private Sensor AttackSensor => Sensors["AttackSensor"];
     
     private GameObject _hitHitbox;
+    public bool KnockedDown;
+    public bool Dead;
     
     protected override void OnStart()
     {
@@ -25,6 +28,9 @@ public class TitanBossAgent : IGoapAgent
 
         factory.AddBelief("AgentIdle", () => !AgentNavmesh.hasPath);
         factory.AddBelief("AgentMoving", () => AgentNavmesh.hasPath);
+        
+        factory.AddBelief("KnockedDown", () => KnockedDown);
+        factory.AddBelief("Fallen", () => false);
 
         factory.AddSensorBelief("PlayerInChaseRange", ChaseSensor);
         factory.AddSensorBelief("PlayerInAttackRange", AttackSensor);
@@ -77,7 +83,13 @@ public class TitanBossAgent : IGoapAgent
             .AddPrecondition(Beliefs["PlayerInAttackRange"])
             .AddPrecondition(Beliefs["FacingPlayer"])
             .AddEffect(Beliefs["AttackingPlayer"])
-            .Build()
+            .Build(),
+            
+            new AgentAction.Builder("FallDown")
+                .WithStrategy(new TitanFallDownStrategy(GAnimator, this))
+                .AddPrecondition(Beliefs["KnockedDown"])
+                .AddEffect(Beliefs["Fallen"])
+                .Build()
         };
     }
 
@@ -98,6 +110,11 @@ public class TitanBossAgent : IGoapAgent
             new AgentGoal.Builder("DestroyPlayer")
                 .WithPriority(3)
                 .WithDesiredEffect(Beliefs["AttackingPlayer"])
+                .Build(),
+            
+            new AgentGoal.Builder("FallDown")
+                .WithPriority(8)
+                .WithDesiredEffect(Beliefs["Fallen"])
                 .Build()
         };
     }
