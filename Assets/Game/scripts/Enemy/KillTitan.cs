@@ -26,6 +26,8 @@ public class KillTitan : MonoBehaviour
         if (storyTitan)
         {
             animator.SetBool(Dead, true);
+            
+            FindFirstObjectByType<CaveStory>().AfterBattle();
         }
         else
         {

@@ -1,4 +1,6 @@
+using System.Collections.Generic;
 using UnityEngine;
+using DG.Tweening;
 
 public class CaveStory : MonoBehaviour
 {
@@ -46,24 +48,47 @@ public class CaveStory : MonoBehaviour
             return;
         titanAgent.EnableGoap();
     }
-
+    
     public void AfterBattle()
     {
-        // you are not like the rest of them
-        // I should of known...
-        // how... how could I have known, that you are different
-        // will you save us...
-        // I'm sorry father, I will let this one through.
+        // setup
+        var executer = StoryExecuter.Instance;
+        var system = executer.GetSystem();
+        var characters = StoryHelper.GatherCharacters("Before Titan Fight");
+        Dictionary<string, CutsceneCamera> cutsceneCameras = CutscenesHelper.GatherCutsceneCameras();
+        var titan = characters["Titan"];
+        var gate = StoryHelper.GatherStoryObjects()["Gate"].GetComponent<OpenGate>();
         
-        // goes to door
-        // punch (.behave, continue=true)
-        // doorObject.behave(door break)
+        system.SetUp();
+
+        executer.SetChapter("Titan After Fight");
+        system.SwapPlayerState<DefaultMovementState, CameraStateInPlace>();
+        system.ShowMovieBars();
+        system.SwapCamera(cutsceneCameras["AfterFightTitanCam"], titan.transform);
         
-        // don't disappoint me...
+        // story
+        titan.Say("you are not like the rest of them");
+        titan.Say("I should have known...");
+        titan.Say("how... how could I have known, that you are different");
+        titan.Say("will you save us...");
+        titan.Say("...");
+        titan.Say("I'm sorry father, I will let this one through.");
+
+        system.SwapCamera(cutsceneCameras["Gate"]);
         
-        // goes deeper to the inner cave
-        // despawn titan
-        
-        // end cutscene
+        system.DelayedAction(() => { gate.Open(); });
+        system.Delay(5f);
+
+        system.SwapCamera(cutsceneCameras["AfterFightTitanCam"], titan.transform);
+
+        titan.Say("I trust you, get out of here, OUT OUT of here,");
+        titan.Say("and tell them there are entities still alive in here!");
+        titan.Say("tell them! you must!");
+        titan.Say("don't disappoint me...");
+
+        // start story
+        system.HideMovieBars();
+        system.SwapPlayerState<cc_fpState, FP_CameraState>();
+        executer.startChapter();
     }
 }
