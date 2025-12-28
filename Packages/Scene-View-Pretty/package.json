@@ -1,0 +1,16 @@
+{
+  "name": "com.bewildered.scene-view-pretty",
+  "version": "0.0.0",
+  "displayName": "Pretty Scene Overlays",
+  "description": "Nicer looking scene overlays.",
+  "unity": "2022.1",
+  "keywords": [
+    "style",
+	"overlay"
+  ],
+  "author": {
+    "name": "Bewildered",
+    "email": "contact@bewilderedstudios.com",
+    "url": "https://www.bewilderedstudios.com"
+  }
+}

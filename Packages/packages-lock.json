@@ -1,5 +1,11 @@
 {
   "dependencies": {
+    "com.bewildered.scene-view-pretty": {
+      "version": "file:Scene-View-Pretty",
+      "depth": 0,
+      "source": "embedded",
+      "dependencies": {}
+    },
     "com.mibdev.fullscreen-editor": {
       "version": "file:com.mibdev.fullscreen-editor",
       "depth": 0,

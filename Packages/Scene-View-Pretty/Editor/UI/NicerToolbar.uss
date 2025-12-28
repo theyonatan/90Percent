@@ -1,0 +1,87 @@
+/*****************************************/
+/*	Editor Top Toolbar & Button Styling  */
+/*****************************************/
+
+.unity-editor-toolbar__button-strip { 
+height: 22px; }
+
+#ToolbarZoneLeftAlign {
+    padding-top: 0px;
+    height: 23px;
+}
+
+
+#ToolbarZoneRightAlign {
+    padding-top: 0px;
+    height: 23px;
+}
+
+#ToolbarZonePlayMode {
+    padding-top: 0px;
+    height: 23px;
+}
+
+
+
+StoreButton {
+    min-height: 23px;
+    border-radius: 6;
+    top:-1;
+    visibility: hidden;
+    width: 0px;
+}
+
+
+#Play {
+    min-height: 23px;
+    
+}
+
+#Pause {
+    min-height: 23px;
+    
+}
+
+#Step {
+    min-height: 23px;
+    
+}
+
+#AccountDropdown {
+    min-height: 23px;
+    border-radius: 4;
+    top:-1;
+    
+}
+
+#Cloud {
+    min-height: 23px;
+    border-radius: 4;
+    top: -1;
+    
+}
+
+#History {
+    min-height: 22px;
+    border-radius: 4;
+    }
+
+SearchButton  {
+    min-height: 22px;
+    }
+
+SearchButton.unity-toolbar-button {
+    border-radius: 4;
+}
+
+#LayersDropdown {
+    min-height: 22px;
+    border-radius: 4;
+    }
+
+#LayoutDropdown {
+    min-height: 22px;
+    border-radius: 4;
+    }
+
+

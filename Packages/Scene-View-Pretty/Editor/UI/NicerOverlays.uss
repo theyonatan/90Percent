@@ -1,0 +1,64 @@
+
+#overlay-content .unity-toolbar-overlay > .unity-editor-toolbar-element {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#overlay-content .unity-toolbar-overlay > .unity-editor-toolbar-element:hover {
+    background-color: rgba(256, 256, 256, 0.05);
+}
+
+#overlay-content .unity-toolbar-overlay > .unity-editor-toolbar-element:checked {
+    background-color: rgba(256, 256, 256, 0.1);
+}
+
+
+ /*Button */
+
+#overlay-content .unity-toolbar-overlay .unity-button {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#overlay-content .unity-toolbar-overlay .unity-button:hover {
+    background-color: rgba(256, 256, 256, 0.05);
+}
+
+#overlay-content .unity-toolbar-overlay .unity-button:checked {
+    background-color: rgba(256, 256, 256, 0.1);
+}
+
+/* Button strip*/
+#overlay-content .unity-toolbar-overlay .unity-editor-toolbar__button-strip-element {
+    background-color: rgba(0, 0, 0, 0);
+ 
+}
+
+#overlay-content .unity-toolbar-overlay .unity-editor-toolbar__button-strip-element:hover {
+    background-color: rgba(256, 256, 256, 0.05);
+}
+
+#overlay-content .unity-toolbar-overlay .unity-editor-toolbar__button-strip-element:checked {
+    background-color: rgba(256, 256, 256, 0.1);
+}
+
+#overlay-content .unity-toolbar-overlay > .unity-editor-toolbar__button-strip:hover {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.overlay-toolbar-area {
+    --unity-overlay-toolbar-vertical-color: rgba(40, 40, 40, 1);
+
+}
+
+.unity-toolbar-overlay > PivotRotationDropdown > .unity-text-element {
+    padding-left: 1px;
+}
+
+.unity-toolbar-overlay > PivotModeDropdown> .unity-text-element {
+    padding-left: 1px;
+}
+
+/*
+#Pivot-Mode .unity-toolbar-overlay .unity-text-element .unity-toolbar-button .unity-editor-toolbar-element {
+width: 72px;
+}
+*/
