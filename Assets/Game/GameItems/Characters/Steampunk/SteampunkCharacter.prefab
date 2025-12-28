@@ -855,6 +855,7 @@ SkinnedMeshRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
+  m_MaskInteraction: 0
   serializedVersion: 2
   m_Quality: 0
   m_UpdateWhenOffscreen: 0
@@ -2049,6 +2050,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4747016656410007169}
   - component: {fileID: 5723851235907036497}
+  - component: {fileID: 3203107525785568807}
   - component: {fileID: 3059528689835143398}
   m_Layer: 0
   m_Name: SteampunkCharacter
@@ -2087,9 +2089,31 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb5462a47d6a9f1418882198d476c0e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: story::StoryCharacter
-  CharacterStory: {fileID: 0}
-  CutsceneId: 
-  headPosition: {fileID: 0}
+  CharacterStory: {fileID: 11400000, guid: c0dc71ca5ef3d42409c13fb54e7426de, type: 2}
+  CutsceneId: none
+  headPosition: {fileID: 8049713614711477220}
+--- !u!95 &3203107525785568807
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7287834880838726884}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 5c9d068e3b8cbfe4f990f33100f99eaf, type: 3}
+  m_Controller: {fileID: 9100000, guid: 113a1b3efdbcf0140b914e5234f9f464, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!136 &3059528689835143398
 CapsuleCollider:
   m_ObjectHideFlags: 0
